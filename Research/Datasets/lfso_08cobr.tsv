@@ -1,0 +1,630 @@
+sex,age,reason,c_birth,time\geo	BE 	DE 	IE 	EL 	ES 	FR 	IT 	CY 	LT 	LU 	NL 	AT 	PT 	SE 	UK 	NO 	CH 
+F,Y15-24,EDUC,EU27_FOR,2008	38 u	: 	7 	37 u	11 u	: u	: c	: c	: 	: 	60 	40 u	: c	: c	22 	: 	23 u
+F,Y15-24,EDUC,FOR,2008	23 u	: u	12 	12 u	8 	: u	5 u	: c	: 	: c	40 	21 u	: u	: u	31 	: c	18 u
+F,Y15-24,EDUC,NEU_HDI_H,2008	: c	: 	36 u	: c	12 	: u	: u	: 	: 	: 	: c	: c	: c	: c	52 	: c	: u
+F,Y15-24,EDUC,NEU_HDI_L,2008	: c	: 	: u	: 	: 	: u	: c	: 	: 	: 	: c	: 	: c	: c	: u	: 	: c
+F,Y15-24,EDUC,NEU_HDI_M,2008	: 	: 	: u	: 	: c	: u	: c	: c	: 	: 	: c	: 	: u	: 	53 	: 	: c
+F,Y15-24,EDUC,NEU_NHDI,2008	: c	: 	: 	: 	: 	: 	: 	: 	: 	: c	100 u	: 	: 	: 	: 	: 	: 
+F,Y15-24,EDUC,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+F,Y15-24,FAM,EU27_FOR,2008	: u	: 	19 	: u	47 	: u	67 	: u	: 	42 u	27 u	: u	: c	: u	12 u	: c	29 u
+F,Y15-24,FAM,FOR,2008	53 	36 	20 	52 	58 	: u	71 	40 	: 	47 u	42 	55 	63 	79 	31 	35 u	56 
+F,Y15-24,FAM,NEU_HDI_H,2008	: u	: 	: u	66 	56 	: u	76 	63 u	: 	: 	72 u	69 	: u	: u	34 u	58 u	78 
+F,Y15-24,FAM,NEU_HDI_L,2008	: u	: 	: u	: 	: c	: u	78 u	: 	: 	: 	: u	: c	: u	: u	60 	: c	: u
+F,Y15-24,FAM,NEU_HDI_M,2008	100 u	: 	: u	: c	67 	: u	64 	: c	: 	: c	67 u	: c	: u	: u	35 u	: c	: u
+F,Y15-24,FAM,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: u	: 	: 	: 	: 	: 	: c	: c	: c	: 	: 
+F,Y15-24,FAM,NRP,2008	: 	36 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 
+F,Y15-24,INTPRO,EU27_FOR,2008	: c	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+F,Y15-24,INTPRO,FOR,2008	: c	: u	: c	: c	: 	: c	: 	: c	: 	: 	: u	: u	: 	: u	: u	47 u	: u
+F,Y15-24,INTPRO,NEU_HDI_H,2008	: c	: 	: 	: c	: 	: c	: 	: c	: 	: 	: 	: c	: 	: c	: 	: c	: c
+F,Y15-24,INTPRO,NEU_HDI_L,2008	: 	: 	: c	: 	: 	: c	: 	: 	: 	: 	: u	: 	: 	: c	: u	: c	: c
+F,Y15-24,INTPRO,NEU_HDI_M,2008	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: c	: 	: 	: 	: c	: c	: 
+F,Y15-24,INTPRO,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: c	: c	: c	: c
+F,Y15-24,INTPRO,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+F,Y15-24,OTH,EU27_FOR,2008	: u	: 	9 	: c	7 u	: 	: c	: 	: 	38 u	: c	: c	: c	: c	12 u	: 	21 u
+F,Y15-24,OTH,FOR,2008	: u	: u	9 	: u	5 	: c	4 u	: 	: 	32 u	8 u	: u	: c	: u	8 	: c	12 u
+F,Y15-24,OTH,NEU_HDI_H,2008	: 	: 	: c	: c	6 u	: c	: c	: 	: 	: 	: u	: c	: 	: c	: u	: 	: u
+F,Y15-24,OTH,NEU_HDI_L,2008	: c	: 	: c	: c	: 	: 	: 	: 	: 	: 	: c	: 	: 	: c	: c	: 	: c
+F,Y15-24,OTH,NEU_HDI_M,2008	: 	: 	: c	: 	: c	: 	: c	: 	: 	: 	: u	: c	: 	: 	: c	: c	: c
+F,Y15-24,OTH,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+F,Y15-24,OTH,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+F,Y15-24,WRK_JOB,EU27_FOR,2008	: u	: 	14 	: c	: c	: 	: c	: c	: 	: c	: c	: u	: c	: c	15 u	: c	: u
+F,Y15-24,WRK_JOB,FOR,2008	: u	: u	13 	: c	5 	: 	4 u	35 u	: 	: c	: c	: u	: c	: c	7 	: c	: u
+F,Y15-24,WRK_JOB,NEU_HDI_H,2008	: 	: 	: u	: c	: c	: 	: c	: u	: 	: 	: c	: c	: c	: 	: 	: c	: 
+F,Y15-24,WRK_JOB,NEU_HDI_L,2008	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 
+F,Y15-24,WRK_JOB,NEU_HDI_M,2008	: 	: 	: c	: 	7 u	: 	: u	66 u	: 	: 	: c	: 	: 	: 	: c	: 	: c
+F,Y15-24,WRK_JOB,NEU_NHDI,2008	: c	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+F,Y15-24,WRK_JOB,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+F,Y15-24,WRK_NJOB,EU27_FOR,2008	: c	: 	52 	33 u	31 	: c	21 u	: u	: 	: c	: c	: c	: c	: 	39 	: c	: u
+F,Y15-24,WRK_NJOB,FOR,2008	: c	: c	46 	28 	24 	: c	15 	13 u	: 	: c	: c	: c	: u	: 	20 	: c	: u
+F,Y15-24,WRK_NJOB,NEU_HDI_H,2008	: 	: 	: u	27 u	22 	: 	14 u	: c	: 	: 	: 	: 	: u	: 	: c	: 	: c
+F,Y15-24,WRK_NJOB,NEU_HDI_L,2008	: 	: 	: c	: 	: 	: c	: c	: 	: 	: 	: 	: 	: 	: 	: u	: 	: 
+F,Y15-24,WRK_NJOB,NEU_HDI_M,2008	: 	: 	: c	: 	20 	: 	16 u	: 	: 	: 	: c	: 	: c	: 	: c	: 	: 
+F,Y15-24,WRK_NJOB,NRP,2008	: 	: c	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+F,Y15-64,EDUC,EU27_FOR,2008	7 	: 	5 	6 u	3 	: u	5 	: c	: 	: u	10 	13 	: u	8 	18 	5 u	5 
+F,Y15-64,EDUC,FOR,2008	7 	5 	8 	2 	3 	10 	3 	1 u	: u	: u	8 	9 	4 	4 	17 	5 	5 
+F,Y15-64,EDUC,NEU_HDI_H,2008	7 u	: 	16 	: c	3 	: u	3 	: c	: u	: 	3 u	5 	: c	: u	24 	9 u	5 
+F,Y15-64,EDUC,NEU_HDI_L,2008	: u	: 	: u	: c	: c	: u	6 u	: 	: 	: 	: u	: 	: u	: c	12 	: c	: u
+F,Y15-64,EDUC,NEU_HDI_M,2008	: u	: 	18 	: 	2 	: u	: u	: u	: 	: 	7 	: u	: u	: u	15 	: c	11 u
+F,Y15-64,EDUC,NEU_NHDI,2008	: c	: 	: 	: 	: 	: 	: c	: 	: 	: c	39 	: c	: 	: 	: u	: 	: c
+F,Y15-64,EDUC,NRP,2008	: 	5 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 
+F,Y15-64,FAM,EU27_FOR,2008	52 	: 	32 	32 	35 	59 	49 	49 	: u	56 	62 	45 	60 	53 	27 	68 	42 
+F,Y15-64,FAM,FOR,2008	58 	55 	32 	34 	40 	66 	51 	33 	43 u	58 	62 	53 	52 	58 	43 	61 	51 
+F,Y15-64,FAM,NEU_HDI_H,2008	58 	: 	38 	35 	39 	71 	52 	32 	42 u	78 	70 	59 	51 	62 	43 	65 	61 
+F,Y15-64,FAM,NEU_HDI_L,2008	40 	: 	41 	59 u	70 	63 	60 	: c	: 	59 u	40 	: u	53 	62 	61 	60 	56 
+F,Y15-64,FAM,NEU_HDI_M,2008	84 	: 	25 	31 u	46 	69 	49 	11 	: c	76 	65 	50 	46 	66 	51 	59 	59 
+F,Y15-64,FAM,NEU_NHDI,2008	: 	: 	: u	: 	: c	: 	67 u	: c	: 	: u	23 	: u	: c	: u	28 u	18 u	: u
+F,Y15-64,FAM,NRP,2008	: 	55 	: 	: c	: 	: u	: 	: 	: 	: 	: u	: 	: 	43 	: 	66 u	: 
+F,Y15-64,INTPRO,EU27_FOR,2008	: u	: 	: u	: u	: c	: u	: c	: c	: 	2 u	: c	3 u	: 	: u	: u	: 	: u
+F,Y15-64,INTPRO,FOR,2008	8 	12 	2 	7 	0 u	: u	: u	2 u	: 	3 	9 	8 	: u	19 	5 	16 	2 
+F,Y15-64,INTPRO,NEU_HDI_H,2008	17 	: 	: u	9 	: c	: u	: c	3 u	: 	: u	13 	12 	: 	26 	4 	12 	4 
+F,Y15-64,INTPRO,NEU_HDI_L,2008	28 u	: 	34 	: 	: 	: u	: c	: 	: 	: 	46 	: c	: u	30 u	9 	33 	14 u
+F,Y15-64,INTPRO,NEU_HDI_M,2008	: c	: 	: c	: c	: 	: c	: c	: c	: 	: 	5 	: c	: c	27 	4 u	17 u	: u
+F,Y15-64,INTPRO,NEU_NHDI,2008	: 	: 	: 	: 	: c	: 	: 	: 	: 	: c	12 u	: u	: 	: u	38 u	65 	: c
+F,Y15-64,INTPRO,NRP,2008	: 	12 	: 	: u	: 	: c	: 	: 	: 	: 	: c	: 	: 	29 	: 	: 	: 
+F,Y15-64,OTH,EU27_FOR,2008	17 	: 	18 	14 	18 	13 u	4 	17 	: c	11 	15 	11 	: u	17 	12 	5 u	14 
+F,Y15-64,OTH,FOR,2008	12 	15 	17 	11 	10 	8 	4 	8 	31 u	10 	13 	6 	12 	9 	12 	9 	12 
+F,Y15-64,OTH,NEU_HDI_H,2008	: u	: 	15 	9 	8 	: u	5 	4 u	30 u	: u	9 	: u	: u	6 	15 	11 u	12 
+F,Y15-64,OTH,NEU_HDI_L,2008	15 u	: 	14 u	: c	: c	: u	: u	: c	: 	: u	8 u	: 	21 	: u	10 	: c	: u
+F,Y15-64,OTH,NEU_HDI_M,2008	: u	: 	7 u	: u	4 	: u	3 u	: c	: 	: u	15 	: c	: u	: u	10 	22 u	7 u
+F,Y15-64,OTH,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: 	: 	: c	: c	18 	: 	: c	: c	: u	: c	: 
+F,Y15-64,OTH,NRP,2008	: 	15 	: 	: c	: 	: 	: 	: 	: 	: 	: c	: 	: 	: u	: 	: c	: 
+F,Y15-64,WRK_JOB,EU27_FOR,2008	15 	: 	11 	5 u	9 	: u	11 	18 	: 	23 	9 	12 	: c	12 	16 	7 u	26 
+F,Y15-64,WRK_JOB,FOR,2008	9 	8 	14 	3 	9 	: u	10 	41 	: u	21 	4 	7 	6 	6 	10 	3 u	18 
+F,Y15-64,WRK_JOB,NEU_HDI_H,2008	: u	: 	13 	3 u	8 	: u	9 	39 	: u	: u	4 	3 u	: u	: u	6 	: u	9 
+F,Y15-64,WRK_JOB,NEU_HDI_L,2008	: c	: 	: c	: c	: c	: u	7 u	: c	: 	: c	: 	: 	: u	: 	2 u	: c	: u
+F,Y15-64,WRK_JOB,NEU_HDI_M,2008	: c	: 	39 	: c	8 	: u	14 	78 	: 	: c	2 u	: u	: u	: c	14 	: c	16 u
+F,Y15-64,WRK_JOB,NEU_NHDI,2008	: c	: 	: 	: 	: 	: 	: 	: 	: 	: c	: c	: c	: 	: 	: c	: 	: 
+F,Y15-64,WRK_JOB,NRP,2008	: 	8 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: u	: 	: 	: c
+F,Y15-64,WRK_NJOB,EU27_FOR,2008	8 	: 	33 	40 	34 	17 u	32 	16 	: 	8 	5 	15 	: u	9 	27 	15 	12 
+F,Y15-64,WRK_NJOB,FOR,2008	6 	6 	27 	43 	38 	10 	32 	15 	: u	7 	4 	17 	24 	4 	13 	7 	10 
+F,Y15-64,WRK_NJOB,NEU_HDI_H,2008	6 u	: 	15 	44 	41 	: u	32 	21 	: u	: c	1 u	19 	33 	: u	8 	: u	9 
+F,Y15-64,WRK_NJOB,NEU_HDI_L,2008	: c	: 	: u	: u	16 u	: u	24 	: 	: 	: c	: u	: c	: u	: 	4 	: c	: u
+F,Y15-64,WRK_NJOB,NEU_HDI_M,2008	: u	: 	10 	46 	40 	: u	33 	4 u	: c	: u	4 	: u	29 	: c	7 	: c	6 u
+F,Y15-64,WRK_NJOB,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: u	: 	: 	: 	8 u	: c	: 	: 	: 	: c	: 
+F,Y15-64,WRK_NJOB,NRP,2008	: 	6 	: 	68 u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: u	: 	: 	: 
+F,Y15-74,EDUC,EU27_FOR,2008	6 	: 	5 	6 u	3 	: u	5 	: c	: 	: u	9 	12 	: u	9 	18 	3 u	5 
+F,Y15-74,EDUC,FOR,2008	7 	5 	8 	2 	3 	9 	3 	1 u	: u	: u	8 	8 	4 	4 	17 	4 	5 
+F,Y15-74,EDUC,NEU_HDI_H,2008	7 u	: 	15 	: c	3 	: u	3 	: c	: u	: 	3 u	5 	: c	: u	24 	8 u	4 
+F,Y15-74,EDUC,NEU_HDI_L,2008	: u	: 	: u	: c	: c	: u	6 u	: 	: 	: 	: u	: 	: u	: c	12 	: c	: u
+F,Y15-74,EDUC,NEU_HDI_M,2008	: u	: 	18 	: 	2 	: u	: u	: u	: 	: 	7 	: u	: u	: u	14 	: c	11 u
+F,Y15-74,EDUC,NEU_NHDI,2008	: c	: 	: 	: 	: 	: 	: c	: 	: 	: c	37 	: c	: 	: 	: u	: 	: c
+F,Y15-74,EDUC,NRP,2008	: 	5 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 
+F,Y15-74,FAM,EU27_FOR,2008	54 	: 	33 	33 	34 	60 	50 	48 	: u	58 	63 	47 	62 	50 	27 	68 	40 
+F,Y15-74,FAM,FOR,2008	59 	53 	33 	34 	40 	65 	52 	34 	39 u	60 	61 	54 	53 	57 	44 	61 	49 
+F,Y15-74,FAM,NEU_HDI_H,2008	59 	: 	39 	34 	40 	69 	52 	32 	38 u	78 	70 	58 	51 	63 	43 	64 	61 
+F,Y15-74,FAM,NEU_HDI_L,2008	39 	: 	42 	59 u	71 	63 	61 	: u	: 	59 u	39 	: u	54 	62 	62 	60 	56 
+F,Y15-74,FAM,NEU_HDI_M,2008	84 	: 	26 	30 u	46 	70 	49 	14 	: c	75 	64 	50 	48 	66 	52 	56 	59 
+F,Y15-74,FAM,NEU_NHDI,2008	: 	: 	: u	: 	: c	: 	65 u	: c	: 	: u	27 	: u	: c	: u	28 u	18 u	: u
+F,Y15-74,FAM,NRP,2008	: 	53 	: 	: c	: 	: u	: 	: 	: 	: 	: u	: 	: 	45 	: 	66 u	: 
+F,Y15-74,INTPRO,EU27_FOR,2008	: u	: 	: u	: u	: c	: u	: c	: c	: 	2 u	: c	3 u	: 	: u	: u	: c	1 u
+F,Y15-74,INTPRO,FOR,2008	7 	13 	2 	7 	0 u	3 u	0 u	2 u	: c	3 	9 	8 	: u	18 	5 	13 	2 
+F,Y15-74,INTPRO,NEU_HDI_H,2008	16 	: 	: u	10 	: c	: u	: c	3 u	: c	: u	13 	12 	: 	25 	4 	11 	4 
+F,Y15-74,INTPRO,NEU_HDI_L,2008	27 u	: 	34 	: 	: 	: u	: c	: 	: 	: 	46 	: c	: u	30 u	9 	33 	14 u
+F,Y15-74,INTPRO,NEU_HDI_M,2008	: c	: 	: c	: c	: 	: c	: u	: c	: 	: 	6 	: c	: c	27 	3 u	16 u	: u
+F,Y15-74,INTPRO,NEU_NHDI,2008	: 	: 	: c	: 	: c	: 	: c	: 	: 	: c	11 u	: u	: 	: u	39 u	65 	: c
+F,Y15-74,INTPRO,NRP,2008	: 	13 	: 	: u	: 	: c	: 	: 	: 	: 	: c	: 	: 	28 	: 	: 	: 
+F,Y15-74,OTH,EU27_FOR,2008	17 	: 	19 	15 	22 	14 u	4 	20 	: c	11 	15 	12 	: u	19 	12 	7 u	14 
+F,Y15-74,OTH,FOR,2008	12 	16 	17 	11 	11 	10 	4 	10 	34 u	10 	14 	6 	12 	10 	12 	10 	13 
+F,Y15-74,OTH,NEU_HDI_H,2008	6 u	: 	16 	10 	9 	11 u	5 	4 u	34 u	: u	9 	: u	: u	6 	16 	12 	12 
+F,Y15-74,OTH,NEU_HDI_L,2008	17 u	: 	14 u	: c	: c	: u	: u	: c	: 	: u	8 u	: 	21 	: u	10 	: c	: u
+F,Y15-74,OTH,NEU_HDI_M,2008	: u	: 	7 u	17 u	5 	: u	3 u	: c	: 	: u	17 	: c	: u	: u	10 	26 u	7 u
+F,Y15-74,OTH,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: 	: 	: c	: c	18 	: 	: c	: c	: u	: c	: 
+F,Y15-74,OTH,NRP,2008	: 	16 	: 	: c	: 	: 	: 	: 	: 	: 	: c	: 	: 	: u	: 	: c	: 
+F,Y15-74,WRK_JOB,EU27_FOR,2008	15 	: 	10 	5 u	9 	: u	11 	16 	: 	22 	8 	11 	: c	13 	16 	12 	27 
+F,Y15-74,WRK_JOB,FOR,2008	9 	8 	13 	3 	8 	: u	10 	39 	20 u	20 	4 	7 	6 	6 	10 	5 	20 
+F,Y15-74,WRK_JOB,NEU_HDI_H,2008	: u	: 	12 	3 u	8 	: u	9 	38 	21 u	: u	4 	4 u	: u	: u	6 	: u	10 
+F,Y15-74,WRK_JOB,NEU_HDI_L,2008	: c	: 	: c	: c	: c	: u	7 u	: c	: 	: c	: 	: 	: u	: 	3 u	: c	: u
+F,Y15-74,WRK_JOB,NEU_HDI_M,2008	: c	: 	39 	: c	8 	: u	13 	76 	: 	: c	2 u	: u	: u	: c	13 	: c	16 u
+F,Y15-74,WRK_JOB,NEU_NHDI,2008	: c	: 	: 	: 	: 	: 	: 	: 	: 	: c	: c	: c	: 	: 	: c	: 	: 
+F,Y15-74,WRK_JOB,NRP,2008	: 	8 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: u	: 	: 	: c
+F,Y15-74,WRK_NJOB,EU27_FOR,2008	7 	: 	32 	39 	32 	15 u	30 	15 	: 	7 	4 	15 	: u	9 	26 	9 	13 
+F,Y15-74,WRK_NJOB,FOR,2008	6 	6 	26 	42 	37 	10 	31 	15 	: u	7 	4 	17 	23 	4 	12 	6 	11 
+F,Y15-74,WRK_NJOB,NEU_HDI_H,2008	6 u	: 	15 	44 	40 	: u	31 	21 	: u	: c	1 u	20 	32 	: u	8 	4 u	9 
+F,Y15-74,WRK_NJOB,NEU_HDI_L,2008	: c	: 	: u	: u	16 u	: u	23 	: 	: 	: c	: u	: c	: u	: 	4 	: c	: u
+F,Y15-74,WRK_NJOB,NEU_HDI_M,2008	: u	: 	10 	43 	39 	: u	33 	4 u	: c	: u	4 	: u	27 	: c	6 	: c	6 u
+F,Y15-74,WRK_NJOB,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: u	: 	: 	: 	8 u	: c	: 	: 	: 	: c	: 
+F,Y15-74,WRK_NJOB,NRP,2008	: 	6 	: 	68 u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: u	: 	: 	: 
+F,Y25-54,EDUC,EU27_FOR,2008	5 u	: 	5 	: u	3 	: u	5 	: 	: 	: u	6 	12 	: c	10 u	18 	8 u	4 
+F,Y25-54,EDUC,FOR,2008	6 	5 	7 	1 u	2 	10 	3 	: u	: c	: u	7 	8 	: u	4 	15 	6 	5 
+F,Y25-54,EDUC,NEU_HDI_H,2008	: u	: 	12 	: c	3 	: u	3 	: c	: c	: 	3 u	5 u	: c	: u	21 	8 u	4 
+F,Y25-54,EDUC,NEU_HDI_L,2008	: u	: 	: c	: c	: c	: u	6 u	: 	: 	: 	: c	: 	: c	: c	13 	: c	: u
+F,Y25-54,EDUC,NEU_HDI_M,2008	: u	: 	16 	: 	2 u	: u	: u	: c	: 	: 	7 	: u	: u	: u	9 	: c	10 u
+F,Y25-54,EDUC,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	33 	: c	: 	: 	: u	: 	: c
+F,Y25-54,EDUC,NRP,2008	: 	5 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 
+F,Y25-54,FAM,EU27_FOR,2008	52 	: 	34 	33 	34 	59 	44 	53 	: u	54 	63 	43 	62 	64 	29 	70 	43 
+F,Y25-54,FAM,FOR,2008	58 	56 	34 	33 	38 	68 	49 	32 	40 u	57 	63 	54 	51 	62 	45 	63 	52 
+F,Y25-54,FAM,NEU_HDI_H,2008	57 	: 	39 	32 	37 	73 	50 	27 	39 u	77 	71 	62 	49 	63 	43 	68 	62 
+F,Y25-54,FAM,NEU_HDI_L,2008	39 	: 	43 	65 u	68 	66 	61 	: c	: 	58 u	39 	: u	54 	63 	62 	66 	57 
+F,Y25-54,FAM,NEU_HDI_M,2008	82 	: 	24 	28 u	41 	73 	49 	11 u	: 	74 u	67 	52 u	44 	63 	53 	63 	62 
+F,Y25-54,FAM,NEU_NHDI,2008	: 	: 	: c	: 	: c	: 	57 u	: c	: 	: u	23 u	: u	: 	: u	: u	: u	: u
+F,Y25-54,FAM,NRP,2008	: 	56 	: 	: c	: 	: c	: 	: 	: 	: 	: u	: 	: 	46 u	: 	66 u	: 
+F,Y25-54,INTPRO,EU27_FOR,2008	: c	: 	: u	: u	: 	: c	: 	: 	: 	2 u	: 	: u	: 	: u	: c	: 	: u
+F,Y25-54,INTPRO,FOR,2008	9 	12 	3 	8 	0 u	: u	: u	2 u	: 	3 	10 	8 	: u	22 	5 	14 	3 
+F,Y25-54,INTPRO,NEU_HDI_H,2008	19 	: 	: u	10 	: c	: u	: c	3 u	: 	: u	13 	12 	: 	24 	5 u	10 u	4 
+F,Y25-54,INTPRO,NEU_HDI_L,2008	32 u	: 	36 	: 	: 	: u	: c	: 	: 	: 	47 	: c	: u	32 u	9 	26 u	15 u
+F,Y25-54,INTPRO,NEU_HDI_M,2008	: c	: 	: c	: c	: 	: c	: c	: c	: 	: 	6 	: c	: c	30 	4 u	12 u	: c
+F,Y25-54,INTPRO,NEU_NHDI,2008	: 	: 	: 	: 	: c	: 	: 	: 	: 	: c	14 u	: u	: 	: u	40 u	61 u	: c
+F,Y25-54,INTPRO,NRP,2008	: 	12 	: 	: u	: 	: c	: 	: 	: 	: 	: c	: 	: 	48 u	: 	: 	: 
+F,Y25-54,OTH,EU27_FOR,2008	16 	: 	19 	16 	16 	: u	4 	11 	: c	10 	16 	11 	: u	11 u	11 	: u	13 
+F,Y25-54,OTH,FOR,2008	11 	14 	17 	11 	9 	7 u	4 	6 	34 u	10 	13 	6 	10 	6 	12 	10 	12 
+F,Y25-54,OTH,NEU_HDI_H,2008	: u	: 	17 	9 	8 	: u	5 	4 u	33 u	: u	9 	: u	: u	6 u	16 	10 u	11 
+F,Y25-54,OTH,NEU_HDI_L,2008	: u	: 	13 u	: c	: c	: u	: c	: c	: 	: u	9 u	: 	: u	: u	11 	: c	: u
+F,Y25-54,OTH,NEU_HDI_M,2008	: u	: 	7 u	: c	5 	: u	2 u	: c	: 	: u	15 	: c	: u	: u	11 	23 u	: u
+F,Y25-54,OTH,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: 	: 	: c	: c	21 u	: 	: 	: c	: u	: c	: 
+F,Y25-54,OTH,NRP,2008	: 	14 	: 	: c	: 	: 	: 	: 	: 	: 	: c	: 	: 	: c	: 	: c	: 
+F,Y25-54,WRK_JOB,EU27_FOR,2008	19 	: 	11 	5 u	9 	: u	12 	19 	: 	25 	10 	13 	: c	9 u	17 	: u	27 
+F,Y25-54,WRK_JOB,FOR,2008	10 	7 	15 	4 	9 	: u	11 	44 	: u	22 	4 	7 	6 	3 	11 	2 u	18 
+F,Y25-54,WRK_JOB,NEU_HDI_H,2008	: u	: 	13 	3 u	8 	: u	9 	41 	: u	: c	3 u	: u	: u	: u	6 	: u	9 
+F,Y25-54,WRK_JOB,NEU_HDI_L,2008	: c	: 	: c	: c	: c	: c	6 u	: c	: 	: c	: 	: 	: c	: 	: u	: 	: u
+F,Y25-54,WRK_JOB,NEU_HDI_M,2008	: c	: 	42 	: c	9 	: u	13 	80 	: 	: c	2 u	: u	: u	: c	15 	: c	15 u
+F,Y25-54,WRK_JOB,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: c	: 	: 	: c	: 	: 
+F,Y25-54,WRK_JOB,NRP,2008	: 	7 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 	: 	: 	: c
+F,Y25-54,WRK_NJOB,EU27_FOR,2008	8 u	: 	30 	41 	39 	: u	35 	17 	: 	8 	5 u	18 	: u	: u	25 	10 u	13 
+F,Y25-54,WRK_NJOB,FOR,2008	7 	6 	24 	45 	42 	10 	34 	16 	: u	7 	4 	16 	27 	2 u	12 	5 	11 
+F,Y25-54,WRK_NJOB,NEU_HDI_H,2008	: u	: 	15 	46 	44 	: u	34 	24 	: u	: c	: u	16 	34 	: u	8 	: u	9 
+F,Y25-54,WRK_NJOB,NEU_HDI_L,2008	: c	: 	: u	: u	18 u	: u	24 	: 	: 	: c	: u	: c	: u	: 	4 u	: c	: u
+F,Y25-54,WRK_NJOB,NEU_HDI_M,2008	: u	: 	11 	53 	44 	: u	35 	5 u	: c	: u	4 	: u	32 	: c	7 	: c	: u
+F,Y25-54,WRK_NJOB,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: u	: 	: 	: 	9 u	: c	: 	: 	: 	: c	: 
+F,Y25-54,WRK_NJOB,NRP,2008	: 	6 	: 	65 u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 
+F,Y55-74,EDUC,EU27_FOR,2008	: c	: 	: u	: c	: 	: u	: u	: 	: 	: c	: c	: u	: c	8 u	14 u	: 	4 u
+F,Y55-74,EDUC,FOR,2008	: u	: u	: u	: c	: c	: u	3 u	: 	: c	: c	4 u	: u	: u	4 u	14 	: 	4 u
+F,Y55-74,EDUC,NEU_HDI_H,2008	: c	: 	: c	: 	: c	: u	: u	: 	: c	: 	: 	: c	: 	: c	21 u	: 	: u
+F,Y55-74,EDUC,NEU_HDI_L,2008	: u	: 	: 	: 	: 	: c	: c	: 	: 	: 	: 	: 	: c	: 	: u	: 	: 
+F,Y55-74,EDUC,NEU_HDI_M,2008	: c	: 	: c	: 	: 	: c	: 	: 	: 	: 	7 u	: 	: c	: 	: u	: 	: u
+F,Y55-74,EDUC,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 	: u	: 	: 	: 	: 	: 	: 
+F,Y55-74,EDUC,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+F,Y55-74,FAM,EU27_FOR,2008	64 	: 	53 	41 u	26 	61 	75 	36 	: c	71 	73 	62 	: u	37 	36 	67 	37 
+F,Y55-74,FAM,FOR,2008	64 	49 	54 	30 	43 	63 	59 	44 	38 u	71 	60 	51 	58 	45 	50 	61 	39 
+F,Y55-74,FAM,NEU_HDI_H,2008	59 u	: 	67 u	24 u	56 	64 	53 	59 u	37 u	84 u	63 	39 	: u	57 	45 	45 u	47 
+F,Y55-74,FAM,NEU_HDI_L,2008	: u	: 	: c	: 	: c	: u	42 u	: c	: 	: c	: c	: c	51 	: c	63 	: c	: u
+F,Y55-74,FAM,NEU_HDI_M,2008	83 	: 	: u	: u	58 	72 u	37 	: u	: c	: u	52 	: c	: u	: u	58 	: c	: u
+F,Y55-74,FAM,NEU_NHDI,2008	: 	: 	: c	: 	: c	: 	: c	: 	: 	: 	50 u	: c	: c	: 	: c	: c	: 
+F,Y55-74,FAM,NRP,2008	: 	49 	: 	: 	: 	: c	: 	: 	: 	: 	: 	: 	: 	42 u	: 	: 	: 
+F,Y55-74,INTPRO,EU27_FOR,2008	: u	: 	: c	: c	: c	: c	: c	: c	: 	: u	: c	: u	: 	: c	: c	: c	2 u
+F,Y55-74,INTPRO,FOR,2008	: u	14 	: c	9 u	: c	: u	: u	: c	: c	: u	7 	: u	: u	11 	4 u	7 u	2 u
+F,Y55-74,INTPRO,NEU_HDI_H,2008	: u	: 	: 	13 u	: 	: u	: c	: 	: c	: 	10 u	: u	: 	33 	: u	: c	: u
+F,Y55-74,INTPRO,NEU_HDI_L,2008	: c	: 	: 	: 	: 	: c	: c	: 	: 	: 	: u	: 	: u	: 	: u	: c	: 
+F,Y55-74,INTPRO,NEU_HDI_M,2008	: 	: 	: 	: c	: 	: c	: c	: 	: 	: 	5 u	: 	: c	: c	: c	: c	: c
+F,Y55-74,INTPRO,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: c	: 	: 	: 	: u	: c	: 	: c	: c	: c	: 
+F,Y55-74,INTPRO,NRP,2008	: 	14 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: u	: 	: 	: 
+F,Y55-74,OTH,EU27_FOR,2008	17 	: 	38 	: u	55 	: u	8 u	49 	: c	8 u	15 u	16 u	: u	26 	17 u	8 u	17 
+F,Y55-74,OTH,FOR,2008	15 	19 	35 	20 	33 	17 	8 	39 	34 u	8 u	19 	9 u	26 	18 	14 	11 	17 
+F,Y55-74,OTH,NEU_HDI_H,2008	: c	: 	: u	19 u	14 	: u	10 u	: c	34 u	: c	12 u	: c	: u	: u	14 u	: c	18 u
+F,Y55-74,OTH,NEU_HDI_L,2008	: u	: 	: c	: c	: 	: u	: c	: 	: 	: 	: 	: 	: u	: c	: u	: 	: c
+F,Y55-74,OTH,NEU_HDI_M,2008	: c	: 	: c	: u	20 u	: u	: c	: c	: 	: c	24 	: 	: c	: c	12 u	: c	: u
+F,Y55-74,OTH,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: u	: 	: c	: 	: 	: 	: 
+F,Y55-74,OTH,NRP,2008	: 	19 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: c	: 	: 	: 
+F,Y55-74,WRK_JOB,EU27_FOR,2008	10 u	: 	: u	: c	11 	: u	6 u	: u	: 	15 	5 u	: u	: 	16 	16 u	16 	27 
+F,Y55-74,WRK_JOB,FOR,2008	8 u	11 	: u	: u	11 	: u	10 	10 u	: u	14 	6 	8 u	: u	12 	9 	12 	25 
+F,Y55-74,WRK_JOB,NEU_HDI_H,2008	: u	: 	: c	: u	13 	: c	10 u	: c	: u	: c	12 u	: u	: c	: c	: u	: 	17 u
+F,Y55-74,WRK_JOB,NEU_HDI_L,2008	: 	: 	: 	: 	: 	: c	: c	: 	: 	: 	: 	: 	: c	: 	: c	: c	: c
+F,Y55-74,WRK_JOB,NEU_HDI_M,2008	: 	: 	: c	: c	: c	: c	23 u	: c	: 	: 	5 u	: c	: 	: 	: u	: 	: u
+F,Y55-74,WRK_JOB,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 	: 	: 	: 
+F,Y55-74,WRK_JOB,NRP,2008	: 	11 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: u	: 	: 	: 
+F,Y55-74,WRK_NJOB,EU27_FOR,2008	: u	: 	: u	36 u	7 u	: u	8 u	: u	: 	4 u	: c	: u	: 	13 	15 u	9 u	13 
+F,Y55-74,WRK_NJOB,FOR,2008	6 u	7 	: u	38 	12 	10 u	19 	: u	: c	4 u	4 u	24 	: u	10 	9 	8 u	13 
+F,Y55-74,WRK_NJOB,NEU_HDI_H,2008	: u	: 	: c	41 	17 	: u	23 	: c	: c	: 	: c	43 	: u	: c	: u	: c	14 u
+F,Y55-74,WRK_NJOB,NEU_HDI_L,2008	: c	: 	: c	: 	: 	: c	: c	: 	: 	: 	: 	: 	: c	: 	: u	: 	: 
+F,Y55-74,WRK_NJOB,NEU_HDI_M,2008	: c	: 	: 	: c	17 u	: u	33 u	: 	: 	: c	6 u	: c	: c	: 	: u	: 	: u
+F,Y55-74,WRK_NJOB,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 	: c	: 	: 	: 	: 	: 	: 
+F,Y55-74,WRK_NJOB,NRP,2008	: 	7 	: 	: c	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 
+M,Y15-24,EDUC,EU27_FOR,2008	: c	: 	6 u	56 u	: 	: c	: c	: c	: 	: 	46 u	51 u	: 	: c	28 	: 	25 u
+M,Y15-24,EDUC,FOR,2008	: u	: u	19 	16 u	4 u	: u	7 u	32 	: 	: 	33 	29 u	: c	: u	41 	22 u	23 u
+M,Y15-24,EDUC,NEU_HDI_H,2008	: c	: 	40 u	: 	7 u	: u	15 u	: u	: 	: 	: c	: c	: 	: c	47 u	: c	: u
+M,Y15-24,EDUC,NEU_HDI_L,2008	: c	: 	67 u	: 	: 	: u	: 	67 u	: 	: 	: 	: 	: 	: 	48 u	: 	: c
+M,Y15-24,EDUC,NEU_HDI_M,2008	: c	: 	72 	: 	: c	: u	: 	: c	: 	: 	: u	: c	: c	: c	60 	: c	: c
+M,Y15-24,EDUC,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: 	: 	: 	: 	72 u	: c	: 	: 	: c	: 	: 
+M,Y15-24,EDUC,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+M,Y15-24,FAM,EU27_FOR,2008	: u	: 	6 u	: c	35 	: u	51 	: u	: 	: u	: u	: u	: u	: u	: c	: c	22 u
+M,Y15-24,FAM,FOR,2008	: u	: u	7 	14 u	50 	: u	44 	18 u	: c	33 u	28 	42 	: u	48 u	9 u	47 u	33 u
+M,Y15-24,FAM,NEU_HDI_H,2008	: 	: 	: u	22 u	51 	: u	39 	44 u	: c	: 	46 u	67 u	: u	: u	: u	: c	54 u
+M,Y15-24,FAM,NEU_HDI_L,2008	: c	: 	: 	: 	: 	: 	29 u	: c	: 	: 	: c	: 	: c	: c	: u	: c	: c
+M,Y15-24,FAM,NEU_HDI_M,2008	: u	: 	: u	: u	63 	: u	69 	: 	: 	: c	: u	: c	: u	: u	: u	: u	: c
+M,Y15-24,FAM,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: 	: 	: 	: 	: c	: c	: 	: c	: c	: c	: 
+M,Y15-24,FAM,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 
+M,Y15-24,INTPRO,EU27_FOR,2008	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 	: c	: c	: 	: 
+M,Y15-24,INTPRO,FOR,2008	: c	: u	: u	: c	: 	: u	: 	10 u	: 	: c	17 u	: u	: 	: u	8 u	: u	: u
+M,Y15-24,INTPRO,NEU_HDI_H,2008	: c	: 	: c	: 	: 	: c	: 	: c	: 	: 	: c	: u	: 	: c	: u	: c	: u
+M,Y15-24,INTPRO,NEU_HDI_L,2008	: c	: 	: u	: c	: 	: c	: 	: u	: 	: 	71 u	: c	: 	: c	: u	: c	: 
+M,Y15-24,INTPRO,NEU_HDI_M,2008	: 	: 	: c	: c	: 	: c	: 	: c	: 	: 	: c	: 	: 	: u	: u	: c	: c
+M,Y15-24,INTPRO,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: u	: c	: c	: 
+M,Y15-24,INTPRO,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+M,Y15-24,OTH,EU27_FOR,2008	: c	: 	6 u	: c	: c	: c	: 	: 	: 	33 u	: c	: c	: 	: c	: c	: 	: u
+M,Y15-24,OTH,FOR,2008	: c	: u	6 	: c	3 u	: u	: c	: 	: 	31 u	10 u	: c	: c	: u	: u	: c	13 u
+M,Y15-24,OTH,NEU_HDI_H,2008	: c	: 	: c	: c	6 u	: c	: c	: 	: 	: 	: c	: c	: 	: c	: c	: c	: u
+M,Y15-24,OTH,NEU_HDI_L,2008	: c	: 	: c	: 	: 	: c	: 	: 	: 	: 	: c	: 	: c	: c	: c	: 	: c
+M,Y15-24,OTH,NEU_HDI_M,2008	: 	: 	: 	: 	: c	: c	: 	: 	: 	: 	: c	: 	: 	: c	: c	: c	: 
+M,Y15-24,OTH,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 	: 	: 	: 
+M,Y15-24,OTH,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+M,Y15-24,WRK_JOB,EU27_FOR,2008	: u	: 	14 	: 	11 u	: c	: c	: c	: 	: c	: c	: u	: c	: 	17 u	: c	21 u
+M,Y15-24,WRK_JOB,FOR,2008	: u	: c	13 	: u	9 	: c	14 	: u	: 	: c	: u	: u	: u	: 	12 	: c	14 u
+M,Y15-24,WRK_JOB,NEU_HDI_H,2008	: 	: 	: u	: u	6 u	: c	20 u	: c	: 	: 	: c	: c	: c	: 	: u	: 	: u
+M,Y15-24,WRK_JOB,NEU_HDI_L,2008	: 	: 	: c	: 	: c	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+M,Y15-24,WRK_JOB,NEU_HDI_M,2008	: 	: 	: c	: c	10 u	: 	: 	: c	: 	: 	: 	: 	: 	: 	: c	: 	: 
+M,Y15-24,WRK_JOB,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+M,Y15-24,WRK_JOB,NRP,2008	: 	: c	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+M,Y15-24,WRK_NJOB,EU27_FOR,2008	: c	: 	67 	35 u	52 	: 	36 u	59 u	: 	: c	: c	: c	: c	: 	50 	: c	: u
+M,Y15-24,WRK_NJOB,FOR,2008	: c	: u	54 	62 	34 	: u	33 	34 	: 	: c	: c	: u	: u	: c	26 	: c	15 u
+M,Y15-24,WRK_NJOB,NEU_HDI_H,2008	: 	: 	: u	65 	30 	: c	22 	: u	: 	: 	: 	: c	: u	: c	: c	: 	: u
+M,Y15-24,WRK_NJOB,NEU_HDI_L,2008	: 	: 	: 	98 	: c	: c	51 u	: u	: 	: 	: 	: 	: c	: 	: c	: c	: c
+M,Y15-24,WRK_NJOB,NEU_HDI_M,2008	: 	: 	: c	59 u	22 	: 	31 u	: u	: 	: 	: 	: 	: c	: 	: u	: 	: c
+M,Y15-24,WRK_NJOB,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: u	: 	: 	: 	: c	: 	: 	: 	: 	: 	: 
+M,Y15-24,WRK_NJOB,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+M,Y15-64,EDUC,EU27_FOR,2008	: u	: 	3 	14 	1 u	: u	3 u	: c	: 	: c	7 	15 	: c	5 u	14 	6 u	5 
+M,Y15-64,EDUC,FOR,2008	8 	7 	8 	2 	4 	17 	3 	12 	: c	1 u	9 	9 	5 	5 	22 	6 	6 
+M,Y15-64,EDUC,NEU_HDI_H,2008	8 u	: 	15 	: c	4 	15 u	4 	5 u	: c	: c	5 	5 u	: c	5 u	27 	12 u	5 
+M,Y15-64,EDUC,NEU_HDI_L,2008	22 u	: 	30 	: 	4 u	34 u	3 u	58 	: 	: c	4 u	: u	: u	: u	25 	: c	13 u
+M,Y15-64,EDUC,NEU_HDI_M,2008	11 u	: 	29 	: 	5 	25 u	2 u	11 u	: 	: 	9 	: u	: u	: u	25 	: c	19 u
+M,Y15-64,EDUC,NEU_NHDI,2008	: 	: 	: c	: 	: c	: 	: 	: 	: 	: 	40 	: u	: 	: 	: c	: 	: 
+M,Y15-64,EDUC,NRP,2008	: 	7 	: 	: c	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+M,Y15-64,FAM,EU27_FOR,2008	34 	: 	14 	10 u	18 	20 u	17 	30 	: c	18 	33 	19 	: u	33 	7 	51 	16 
+M,Y15-64,FAM,FOR,2008	32 	32 	15 	8 	19 	27 	14 	20 	24 u	18 	34 	22 	24 	33 	18 	43 	20 
+M,Y15-64,FAM,NEU_HDI_H,2008	27 	: 	17 	8 	21 	31 	15 	16 	: u	19 u	43 	25 	20 	36 	17 	33 	24 
+M,Y15-64,FAM,NEU_HDI_L,2008	22 u	: 	7 u	: u	: c	23 u	6 	: c	: 	: u	18 	: c	27 	27 u	30 	63 	24 u
+M,Y15-64,FAM,NEU_HDI_M,2008	39 	: 	21 	10 u	19 	31 u	14 	: u	: c	: u	36 	31 u	25 	27 	21 	23 u	23 u
+M,Y15-64,FAM,NEU_NHDI,2008	: 	: 	: u	: 	: c	: 	: c	: c	: 	: 	12 u	: u	: 	: u	: u	55 u	: 
+M,Y15-64,FAM,NRP,2008	: 	32 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	26 u	: 	: c	: 
+M,Y15-64,INTPRO,EU27_FOR,2008	: u	: 	: u	: c	: 	: u	: 	: c	: 	3 	: u	11 	: 	6 u	: u	: c	: u
+M,Y15-64,INTPRO,FOR,2008	11 	17 	2 	7 	1 	5 u	0 u	10 	: 	5 	17 	17 	: u	31 	8 	20 	6 
+M,Y15-64,INTPRO,NEU_HDI_H,2008	26 	: 	5 u	8 	: c	: u	: u	12 u	: 	13 u	21 	16 	: 	39 	11 	34 	13 
+M,Y15-64,INTPRO,NEU_HDI_L,2008	35 	: 	21 	: u	: c	: u	: c	23 u	: 	: c	58 	59 	: u	48 	14 	: u	25 u
+M,Y15-64,INTPRO,NEU_HDI_M,2008	: c	: 	: u	: u	: c	: u	: c	26 u	: 	: c	12 	: u	: 	52 	7 	42 	9 u
+M,Y15-64,INTPRO,NEU_NHDI,2008	: c	: 	: u	: 	: c	: 	: 	: 	: 	: c	10 u	: u	: 	: u	57 u	36 u	: c
+M,Y15-64,INTPRO,NRP,2008	: 	17 	: 	: u	: 	: c	: 	: 	: 	: 	: 	: 	: 	51 	: 	: 	: 
+M,Y15-64,OTH,EU27_FOR,2008	18 	: 	15 	11 u	18 	15 u	2 u	16 	: c	16 	20 	10 	: u	16 	9 	10 u	16 
+M,Y15-64,OTH,FOR,2008	13 	15 	14 	5 	9 	10 	3 	9 	43 u	17 	15 	6 	15 	12 	12 	14 	15 
+M,Y15-64,OTH,NEU_HDI_H,2008	11 u	: 	14 	5 	9 	: u	3 	5 u	45 u	20 u	10 	3 u	: u	11 	16 	16 u	14 
+M,Y15-64,OTH,NEU_HDI_L,2008	: u	: 	11 u	: 	: c	: u	: u	: c	: 	: u	11 u	: c	28 	: u	14 	: u	13 u
+M,Y15-64,OTH,NEU_HDI_M,2008	7 u	: 	7 u	: c	3 	: u	2 u	: c	: c	: u	18 	: u	: u	11 u	10 	23 u	10 u
+M,Y15-64,OTH,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: c	: 	: 	: c	13 u	: c	: 	: 	: c	: c	: 
+M,Y15-64,OTH,NRP,2008	: 	15 	: 	: c	: 	: 	: 	: 	: 	: 	: c	: 	: 	: u	: 	: c	: 
+M,Y15-64,WRK_JOB,EU27_FOR,2008	27 	: 	20 	6 u	14 	23 u	21 	25 	: c	52 	31 	24 	: u	27 	29 	22 	46 
+M,Y15-64,WRK_JOB,FOR,2008	16 	18 	21 	7 	13 	12 	18 	17 	23 u	48 	13 	12 	11 	12 	19 	10 	34 
+M,Y15-64,WRK_JOB,NEU_HDI_H,2008	9 u	: 	29 	7 	15 	: u	17 	9 u	: u	36 	11 	8 	15 	7 	19 	: u	18 
+M,Y15-64,WRK_JOB,NEU_HDI_L,2008	: c	: 	16 	11 u	9 u	: u	18 	: c	: 	: c	: u	: 	: u	: c	6 	: u	17 u
+M,Y15-64,WRK_JOB,NEU_HDI_M,2008	10 u	: 	24 	11 u	10 	: u	17 	24 u	: 	: u	9 	: c	: u	: u	22 	: c	28 
+M,Y15-64,WRK_JOB,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: u	: 	: c	: 	: u	: c	: 	: 	: 	: c	: c
+M,Y15-64,WRK_JOB,NRP,2008	: 	18 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: u	: 	: u	: c
+M,Y15-64,WRK_NJOB,EU27_FOR,2008	15 	: 	49 	58 	49 	37 	57 	27 	: c	11 	8 	21 	38 	12 	41 	10 u	16 
+M,Y15-64,WRK_NJOB,FOR,2008	19 	11 	40 	70 	54 	28 	62 	32 	: u	11 	12 	33 	44 	6 	21 	7 	19 
+M,Y15-64,WRK_NJOB,NEU_HDI_H,2008	18 	: 	20 	72 	51 	28 	60 	53 	: u	: u	11 	44 	58 	: u	10 	: u	26 
+M,Y15-64,WRK_NJOB,NEU_HDI_L,2008	: u	: 	15 	81 	76 	23 u	70 	13 u	: 	: c	7 u	: u	31 	: c	12 	: u	: u
+M,Y15-64,WRK_NJOB,NEU_HDI_M,2008	32 	: 	18 	71 	62 	22 u	65 	26 u	: c	: u	17 	23 u	42 	: u	14 	: u	11 u
+M,Y15-64,WRK_NJOB,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	83 	: 	: 	: 	20 	: u	: 	: 	: c	: c	: 
+M,Y15-64,WRK_NJOB,NRP,2008	: 	11 	: 	: c	: 	: c	: 	: 	: 	: 	: 	: 	: 	: u	: 	: 	: 
+M,Y15-74,EDUC,EU27_FOR,2008	: u	: 	2 	13 	1 u	: u	3 u	: c	: 	: c	7 	14 	: c	5 u	14 	4 u	5 
+M,Y15-74,EDUC,FOR,2008	7 	7 	8 	2 	4 	15 	3 	11 	: c	1 u	8 	10 	5 	5 	21 	5 	6 
+M,Y15-74,EDUC,NEU_HDI_H,2008	8 u	: 	15 	: c	5 	13 u	4 	5 u	: c	: c	4 	5 u	: c	5 u	27 	11 u	5 
+M,Y15-74,EDUC,NEU_HDI_L,2008	23 u	: 	30 	: 	4 u	33 u	3 u	57 	: 	: c	4 u	: u	: u	: u	25 	: c	13 u
+M,Y15-74,EDUC,NEU_HDI_M,2008	9 u	: 	29 	: 	5 	22 u	3 u	11 u	: 	: 	9 	23 u	: u	: u	25 	: c	20 u
+M,Y15-74,EDUC,NEU_NHDI,2008	: 	: 	: c	: 	: c	: 	: 	: 	: 	: 	39 	: u	: 	: 	: c	: 	: 
+M,Y15-74,EDUC,NRP,2008	: 	7 	: 	: c	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+M,Y15-74,FAM,EU27_FOR,2008	34 	: 	15 	10 u	18 	17 u	17 	27 	: c	18 	34 	21 	: u	35 	8 	54 	15 
+M,Y15-74,FAM,FOR,2008	32 	31 	15 	8 	19 	24 	14 	19 	22 u	18 	33 	22 	25 	34 	18 	46 	19 
+M,Y15-74,FAM,NEU_HDI_H,2008	27 	: 	17 	8 	21 	29 	16 	15 	20 u	18 u	42 	24 	20 	34 	18 	34 	24 
+M,Y15-74,FAM,NEU_HDI_L,2008	22 u	: 	8 u	: u	: c	22 u	6 	: c	: 	: u	18 	: c	28 	26 u	29 	66 	24 u
+M,Y15-74,FAM,NEU_HDI_M,2008	38 	: 	21 	10 u	19 	29 u	14 	13 u	: c	: u	33 	31 u	26 	27 	21 	22 u	23 u
+M,Y15-74,FAM,NEU_NHDI,2008	: 	: 	: u	: 	: c	: 	: c	: c	: 	: 	12 u	: u	: 	: u	: u	55 u	: 
+M,Y15-74,FAM,NRP,2008	: 	31 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	41 	: 	: c	: c
+M,Y15-74,INTPRO,EU27_FOR,2008	: u	: 	: u	: u	: 	: u	: c	: c	: 	3 	: u	11 	: 	6 	: u	: c	1 u
+M,Y15-74,INTPRO,FOR,2008	10 	17 	2 	7 	0 	5 u	1 u	10 	: 	5 	16 	17 	: u	29 	8 	16 	6 
+M,Y15-74,INTPRO,NEU_HDI_H,2008	24 	: 	5 u	9 	: c	: u	: u	12 u	: 	14 u	20 	16 	: 	37 	10 	32 	13 
+M,Y15-74,INTPRO,NEU_HDI_L,2008	34 	: 	21 	: u	: c	: u	: c	23 u	: 	: c	58 	59 	: u	50 	13 	: u	25 u
+M,Y15-74,INTPRO,NEU_HDI_M,2008	: c	: 	: u	: u	: c	: u	: c	26 u	: 	: c	11 	: u	: 	51 	7 	40 	9 u
+M,Y15-74,INTPRO,NEU_NHDI,2008	: c	: 	: u	: 	: c	: 	: 	: 	: 	: c	10 u	: u	: 	: u	56 u	36 u	: c
+M,Y15-74,INTPRO,NRP,2008	: 	17 	: 	: u	: 	: c	: 	: 	: 	: 	: 	: 	: 	40 	: 	: 	: 
+M,Y15-74,OTH,EU27_FOR,2008	18 	: 	15 	11 	23 	18 u	3 	24 	: c	16 	21 	12 	: u	16 	8 	10 	18 
+M,Y15-74,OTH,FOR,2008	13 	15 	14 	6 	11 	13 	3 	13 	47 u	17 	16 	7 	16 	13 	12 	14 	16 
+M,Y15-74,OTH,NEU_HDI_H,2008	11 u	: 	15 	5 	9 	13 u	4 	5 u	50 u	20 u	10 	4 u	: u	12 	16 	15 u	14 
+M,Y15-74,OTH,NEU_HDI_L,2008	: u	: 	12 u	: 	: c	: u	: u	: c	: 	: u	11 u	: c	28 	: u	14 	: u	13 u
+M,Y15-74,OTH,NEU_HDI_M,2008	6 u	: 	7 	: u	3 	: u	2 u	: c	: c	: u	19 	: u	: u	11 u	10 	26 u	10 u
+M,Y15-74,OTH,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: c	: 	: 	: c	13 u	: c	: 	: 	: u	: c	: 
+M,Y15-74,OTH,NRP,2008	: 	15 	: 	: c	: 	: 	: 	: 	: 	: 	: c	: 	: 	: u	: 	: c	: c
+M,Y15-74,WRK_JOB,EU27_FOR,2008	28 	: 	20 	6 u	13 	23 	21 	23 	: c	52 	30 	22 	: u	25 	28 	21 	44 
+M,Y15-74,WRK_JOB,FOR,2008	18 	19 	21 	7 	13 	14 	18 	16 	22 u	49 	14 	12 	11 	12 	19 	11 	34 
+M,Y15-74,WRK_JOB,NEU_HDI_H,2008	9 u	: 	29 	7 	15 	11 u	17 	9 u	23 u	38 	13 	8 	15 	7 	19 	: u	18 
+M,Y15-74,WRK_JOB,NEU_HDI_L,2008	: c	: 	15 	11 u	9 u	: u	18 	: c	: 	: c	: u	: 	: u	: c	7 	: u	17 u
+M,Y15-74,WRK_JOB,NEU_HDI_M,2008	11 u	: 	24 	11 u	10 	16 u	17 	23 u	: 	: u	9 	: c	: u	: u	21 	: c	27 
+M,Y15-74,WRK_JOB,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: u	: 	: c	: 	7 u	: c	: 	: 	: 	: c	: c
+M,Y15-74,WRK_JOB,NRP,2008	: 	19 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: u	: 	: u	: c
+M,Y15-74,WRK_NJOB,EU27_FOR,2008	16 	: 	47 	57 	45 	39 	56 	24 	: c	11 	7 	20 	37 	12 	42 	11 	17 
+M,Y15-74,WRK_NJOB,FOR,2008	20 	12 	39 	70 	53 	29 	61 	30 	: u	11 	13 	32 	43 	7 	22 	8 	19 
+M,Y15-74,WRK_NJOB,NEU_HDI_H,2008	21 	: 	20 	71 	51 	28 	59 	53 	: u	: u	11 	43 	58 	5 u	10 	7 u	26 
+M,Y15-74,WRK_NJOB,NEU_HDI_L,2008	: u	: 	14 	81 	76 	24 u	70 	12 u	: 	: c	7 u	: u	29 	: c	13 	: u	: u
+M,Y15-74,WRK_NJOB,NEU_HDI_M,2008	34 	: 	18 	70 	62 	22 u	65 	25 u	: c	: u	19 	22 u	41 	: u	15 	: u	10 u
+M,Y15-74,WRK_NJOB,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	83 	: 	: 	: 	20 	: u	: 	: 	: c	: c	: 
+M,Y15-74,WRK_NJOB,NRP,2008	: 	12 	: 	: c	: 	: c	: 	: 	: 	: 	: 	: 	: 	: u	: 	: 	: 
+M,Y25-54,EDUC,EU27_FOR,2008	: u	: 	2 	: u	1 u	: u	2 u	: 	: 	: c	6 u	12 u	: c	: u	12 	11 u	5 
+M,Y25-54,EDUC,FOR,2008	8 	6 	7 	: u	3 	18 	3 	9 	: c	1 u	7 	8 	: u	5 	20 	6 u	6 
+M,Y25-54,EDUC,NEU_HDI_H,2008	: u	: 	11 	: c	4 	: u	3 	: c	: c	: c	4 u	6 u	: c	5 u	26 	: u	5 
+M,Y25-54,EDUC,NEU_HDI_L,2008	20 u	: 	24 	: 	4 u	34 u	3 u	53 	: 	: c	4 u	: u	: u	: u	23 	: c	14 u
+M,Y25-54,EDUC,NEU_HDI_M,2008	10 u	: 	23 	: 	5 	: u	2 u	: u	: 	: 	8 	: u	: u	: u	21 	: c	16 u
+M,Y25-54,EDUC,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: 	: 	: 	: 	38 	: c	: 	: 	: c	: 	: 
+M,Y25-54,EDUC,NRP,2008	: 	6 	: 	: c	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+M,Y25-54,FAM,EU27_FOR,2008	36 	: 	14 	9 u	17 	: u	14 	35 	: c	19 	30 	19 	: u	46 	7 	42 	16 
+M,Y25-54,FAM,FOR,2008	34 	35 	15 	7 	16 	31 	10 	21 	: u	19 	36 	22 	21 	37 	19 	39 	20 
+M,Y25-54,FAM,NEU_HDI_H,2008	30 	: 	17 	7 	18 	36 	12 	13 u	: u	22 u	47 	26 	: u	36 	18 	37 	25 
+M,Y25-54,FAM,NEU_HDI_L,2008	21 u	: 	: u	: u	: c	26 u	4 u	: c	: 	: u	17 	: c	28 	34 u	32 	68 u	26 u
+M,Y25-54,FAM,NEU_HDI_M,2008	42 	: 	22 	: u	14 	36 u	9 	: u	: c	: u	39 	: u	: u	29 	21 	25 u	25 u
+M,Y25-54,FAM,NEU_NHDI,2008	: 	: 	: 	: 	: c	: 	: c	: c	: 	: 	15 u	: u	: 	: u	: u	: u	: 
+M,Y25-54,FAM,NRP,2008	: 	35 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	33 u	: 	: c	: 
+M,Y25-54,INTPRO,EU27_FOR,2008	: u	: 	: u	: c	: 	: c	: 	: 	: 	3 	: c	11 u	: 	: u	: c	: 	: u
+M,Y25-54,INTPRO,FOR,2008	13 	18 	2 	7 	1 	: u	0 u	12 	: 	6 	18 	19 	: c	35 	9 	25 	7 
+M,Y25-54,INTPRO,NEU_HDI_H,2008	28 	: 	5 u	8 	: c	: u	: u	16 u	: 	16 u	21 	18 	: 	42 	11 	38 	14 
+M,Y25-54,INTPRO,NEU_HDI_L,2008	38 	: 	22 	: c	: c	: u	: c	28 u	: 	: c	58 	54 u	: c	48 u	14 	: u	26 u
+M,Y25-54,INTPRO,NEU_HDI_M,2008	: c	: 	: c	: c	: c	: c	: c	27 u	: 	: c	13 	: u	: 	52 	7 	41 u	: u
+M,Y25-54,INTPRO,NEU_NHDI,2008	: c	: 	: u	: 	: 	: 	: 	: 	: 	: c	13 u	: u	: 	: u	57 u	74 u	: c
+M,Y25-54,INTPRO,NRP,2008	: 	18 	: 	: u	: 	: c	: 	: 	: 	: 	: 	: 	: 	51 	: 	: 	: 
+M,Y25-54,OTH,EU27_FOR,2008	17 	: 	14 	13 u	16 	: u	3 u	10 u	: c	16 	19 	9 u	: u	15 	9 	18 u	16 
+M,Y25-54,OTH,FOR,2008	12 	16 	13 	5 	9 	10 u	2 	7 	45 u	16 	14 	6 	14 	11 	12 	17 	14 
+M,Y25-54,OTH,NEU_HDI_H,2008	12 u	: 	15 	5 	9 	: u	2 	: u	48 u	18 u	9 	: u	: u	10 	15 	15 u	14 
+M,Y25-54,OTH,NEU_HDI_L,2008	: u	: 	10 u	: 	: c	: u	: c	: c	: 	: u	11 u	: c	24 	: c	12 	: u	: u
+M,Y25-54,OTH,NEU_HDI_M,2008	: u	: 	7 u	: c	3 	: u	2 u	: c	: c	: u	17 	: u	: u	11 u	11 	20 u	11 u
+M,Y25-54,OTH,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: c	: 	: 	: c	11 u	: c	: 	: 	: c	: c	: 
+M,Y25-54,OTH,NRP,2008	: 	16 	: 	: c	: 	: 	: 	: 	: 	: 	: c	: 	: 	: u	: 	: c	: 
+M,Y25-54,WRK_JOB,EU27_FOR,2008	27 	: 	22 	8 u	13 	30 u	22 	29 	: c	52 	36 	27 	: u	21 	31 	19 u	49 
+M,Y25-54,WRK_JOB,FOR,2008	15 	15 	23 	7 	13 	11 	18 	19 	: u	48 	12 	12 	11 	8 	21 	7 u	34 
+M,Y25-54,WRK_JOB,NEU_HDI_H,2008	: u	: 	32 	6 	16 	: u	16 	8 u	: u	34 u	9 	7 u	: u	5 u	20 	: u	16 
+M,Y25-54,WRK_JOB,NEU_HDI_L,2008	: c	: 	18 u	12 u	8 u	: c	17 	: c	: 	: c	: u	: 	: u	: c	7 	: c	16 u
+M,Y25-54,WRK_JOB,NEU_HDI_M,2008	: u	: 	26 	12 u	10 	: u	18 	27 u	: 	: u	7 	: c	: u	: c	25 	: c	29 u
+M,Y25-54,WRK_JOB,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: c	: 	: 	: 	: c	: c	: 	: 	: 	: c	: c
+M,Y25-54,WRK_JOB,NRP,2008	: 	15 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: c	: 	: u	: c
+M,Y25-54,WRK_NJOB,EU27_FOR,2008	14 	: 	48 	66 	52 	29 u	60 	26 	: c	10 	8 u	23 	42 	9 u	41 	9 u	14 
+M,Y25-54,WRK_NJOB,FOR,2008	18 	10 	40 	73 	58 	24 	66 	33 	: u	10 	12 	32 	48 	4 	21 	6 u	18 
+M,Y25-54,WRK_NJOB,NEU_HDI_H,2008	17 u	: 	19 	74 	53 	25 u	66 	56 	: u	: u	11 	40 	64 	: u	10 	: u	26 
+M,Y25-54,WRK_NJOB,NEU_HDI_L,2008	: u	: 	18 	78 	76 	: u	73 	: u	: 	: c	7 u	: u	34 	: c	12 	: u	: u
+M,Y25-54,WRK_NJOB,NEU_HDI_M,2008	31 	: 	20 	74 	67 	: u	69 	22 u	: c	: u	17 	: u	46 	: u	15 	: u	11 u
+M,Y25-54,WRK_NJOB,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	86 	: 	: 	: 	21 u	: u	: 	: 	: c	: c	: 
+M,Y25-54,WRK_NJOB,NRP,2008	: 	10 	: 	: c	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 
+M,Y55-74,EDUC,EU27_FOR,2008	: c	: 	: c	: c	: 	: 	: c	: 	: 	: 	: c	: u	: 	: u	: u	: 	3 u
+M,Y55-74,EDUC,FOR,2008	: u	: u	: u	: c	4 	: u	5 u	: 	: c	: 	6 	7 u	: u	5 u	17 	: 	4 u
+M,Y55-74,EDUC,NEU_HDI_H,2008	: c	: 	: c	: 	7 u	: u	: c	: 	: c	: 	: c	: c	: c	: u	19 u	: 	: u
+M,Y55-74,EDUC,NEU_HDI_L,2008	: u	: 	: c	: 	: 	: u	: c	: 	: 	: 	: 	: c	: c	: c	25 u	: 	: c
+M,Y55-74,EDUC,NEU_HDI_M,2008	: u	: 	: u	: 	9 u	: u	: u	: 	: 	: 	10 u	: u	: c	: c	20 u	: 	: u
+M,Y55-74,EDUC,NEU_NHDI,2008	: 	: 	: 	: 	: c	: 	: 	: 	: 	: 	: u	: c	: 	: 	: 	: 	: 
+M,Y55-74,EDUC,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+M,Y55-74,FAM,EU27_FOR,2008	30 	: 	36 	: u	12 	: u	25 u	14 u	: c	15 	43 	27 u	: c	25 	20 u	63 	14 
+M,Y55-74,FAM,FOR,2008	27 	24 	34 	12 u	17 	16 	26 	15 u	: u	14 	25 	16 	: u	27 	21 	54 	13 
+M,Y55-74,FAM,NEU_HDI_H,2008	: u	: 	: u	: u	29 	19 u	31 	: 	: u	: c	15 u	: u	: u	26 	22 u	28 u	8 u
+M,Y55-74,FAM,NEU_HDI_L,2008	: u	: 	: c	: 	: 	: u	: c	: c	: 	: c	: u	: 	: u	: 	17 u	: c	: c
+M,Y55-74,FAM,NEU_HDI_M,2008	: u	: 	: c	: c	12 u	: u	23 u	: u	: 	: 	18 	: c	: u	: c	28 u	: c	: u
+M,Y55-74,FAM,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: 	: 	: 	: 	: u	: 	: 	: c	: 	: c	: 
+M,Y55-74,FAM,NRP,2008	: 	24 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	50 u	: 	: 	: c
+M,Y55-74,INTPRO,EU27_FOR,2008	: c	: 	: 	: c	: 	: c	: c	: c	: 	: u	: c	: u	: 	8 u	: c	: c	3 u
+M,Y55-74,INTPRO,FOR,2008	: u	15 	: c	17 u	: c	: u	: u	: c	: 	: u	9 	12 u	: c	18 	5 u	8 u	4 u
+M,Y55-74,INTPRO,NEU_HDI_H,2008	: u	: 	: 	19 u	: c	: u	: c	: 	: 	: c	20 u	: u	: 	24 	: c	28 u	8 u
+M,Y55-74,INTPRO,NEU_HDI_L,2008	: c	: 	: c	: 	: 	: u	: 	: 	: 	: 	48 u	: c	: c	: u	: u	: c	: u
+M,Y55-74,INTPRO,NEU_HDI_M,2008	: 	: 	: c	: c	: 	: u	: c	: 	: 	: 	7 u	: 	: 	: u	: c	: c	: u
+M,Y55-74,INTPRO,NEU_NHDI,2008	: 	: 	: 	: 	: c	: 	: 	: 	: 	: 	: c	: c	: 	: 	: c	: c	: 
+M,Y55-74,INTPRO,NRP,2008	: 	15 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: u	: 	: 	: 
+M,Y55-74,OTH,EU27_FOR,2008	20 	: 	41 	: u	56 	22 u	: u	63 	: c	15 	26 	22 u	: u	18 	: u	7 u	21 
+M,Y55-74,OTH,FOR,2008	15 	13 	41 	16 u	35 	18 	10 	50 	: u	16 	23 	11 u	: u	16 	19 	10 u	20 
+M,Y55-74,OTH,NEU_HDI_H,2008	: u	: 	: u	14 u	7 u	: u	14 u	: c	: u	: u	18 u	: u	: 	20 u	22 u	: c	17 u
+M,Y55-74,OTH,NEU_HDI_L,2008	: c	: 	: u	: 	: 	: u	: c	: 	: 	: c	: c	: 	: u	: c	26 u	: 	: c
+M,Y55-74,OTH,NEU_HDI_M,2008	: c	: 	: u	: c	8 u	: u	: c	: 	: 	: 	25 	: 	: c	: c	: u	: c	: u
+M,Y55-74,OTH,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: u	: 	: 	: 	: c	: 	: 
+M,Y55-74,OTH,NRP,2008	: 	13 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: u	: 	: 	: c
+M,Y55-74,WRK_JOB,EU27_FOR,2008	29 	: 	15 	: 	14 	: u	32 u	14 u	: 	54 	23 	: u	: c	30 	24 u	22 	38 
+M,Y55-74,WRK_JOB,FOR,2008	26 	30 	15 	: u	14 	19 	22 	15 u	: u	54 	20 	12 	: u	21 	16 	18 	37 
+M,Y55-74,WRK_JOB,NEU_HDI_H,2008	: u	: 	: c	: u	15 	: u	20 	: u	: u	: u	29 	13 u	: u	: u	: u	: c	33 
+M,Y55-74,WRK_JOB,NEU_HDI_L,2008	: 	: 	: c	: c	: 	: c	: u	: 	: 	: c	: c	: 	: c	: 	: u	: c	: u
+M,Y55-74,WRK_JOB,NEU_HDI_M,2008	: u	: 	: c	: 	14 u	: u	: u	: 	: 	: c	16 	: 	: c	: c	: u	: c	: u
+M,Y55-74,WRK_JOB,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: u	: 	: 	: 	: 	: 	: 
+M,Y55-74,WRK_JOB,NRP,2008	: 	30 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: c	: 
+M,Y55-74,WRK_NJOB,EU27_FOR,2008	19 	: 	8 u	: u	18 	49 	22 u	: u	: 	15 	5 u	: u	: u	15 	37 	: c	22 
+M,Y55-74,WRK_NJOB,FOR,2008	27 	17 	8 u	47 	29 	38 	35 	18 u	: u	15 	16 	42 	: u	14 	22 	10 u	22 
+M,Y55-74,WRK_NJOB,NEU_HDI_H,2008	38 u	: 	: c	52 	41 	32 u	32 	66 u	: u	: c	16 u	61 	: c	14 u	18 u	: c	29 
+M,Y55-74,WRK_NJOB,NEU_HDI_L,2008	: 	: 	: 	: c	: 	: u	57 u	: 	: 	: 	: c	: c	: u	: c	15 u	: c	: c
+M,Y55-74,WRK_NJOB,NEU_HDI_M,2008	47 u	: 	: c	: u	58 	: u	44 u	: 	: 	: c	24 	: c	: c	: c	19 u	: c	: u
+M,Y55-74,WRK_NJOB,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 	: u	: u	: 	: 	: 	: c	: 
+M,Y55-74,WRK_NJOB,NRP,2008	: 	17 	: 	: c	: 	: c	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 
+T,Y15-24,EDUC,EU27_FOR,2008	31 u	: 	7 	47 	7 u	: u	: u	: c	: 	: 	55 	45 	: c	: u	24 	: 	24 u
+T,Y15-24,EDUC,FOR,2008	23 	34 	15 	14 	7 	48 u	6 	22 	: 	: c	37 	24 	: u	: u	35 	19 u	20 
+T,Y15-24,EDUC,NEU_HDI_H,2008	: u	: 	38 	: c	10 	: u	9 u	: u	: 	: 	: u	: u	: c	: c	50 	53 u	14 u
+T,Y15-24,EDUC,NEU_HDI_L,2008	: u	: 	55 u	: 	: 	: u	: c	67 u	: 	: 	: c	: 	: c	: c	27 	: 	: u
+T,Y15-24,EDUC,NEU_HDI_M,2008	: c	: 	64 	: 	3 u	: u	: c	: c	: 	: 	: u	: c	: u	: c	57 	: c	: u
+T,Y15-24,EDUC,NEU_NHDI,2008	: c	: 	: c	: 	: 	: 	: 	: 	: 	: c	86 	: c	: 	: 	: c	: 	: 
+T,Y15-24,EDUC,NRP,2008	: 	34 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+T,Y15-24,FAM,EU27_FOR,2008	: u	: 	13 	14 u	42 	: u	60 	25 u	: 	36 u	27 u	29 u	: u	: u	8 u	: c	25 u
+T,Y15-24,FAM,FOR,2008	49 	31 	14 	31 	54 	37 u	58 	26 	: c	40 	36 	49 	57 	65 	21 	42 	46 
+T,Y15-24,FAM,NEU_HDI_H,2008	: u	: 	18 u	47 	54 	: u	58 	54 	: c	: 	59 	68 	54 	79 u	24 	42 u	69 
+T,Y15-24,FAM,NEU_HDI_L,2008	: u	: 	: u	: 	: c	: u	46 	: c	: 	: 	32 u	: c	: u	: u	46 	50 u	: u
+T,Y15-24,FAM,NEU_HDI_M,2008	92 u	: 	: u	: u	66 	: u	66 	: c	: 	: u	59 u	: u	: u	: u	24 	: u	: u
+T,Y15-24,FAM,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: u	: 	: 	: 	: c	: c	: c	: c	: u	: c	: 
+T,Y15-24,FAM,NRP,2008	: 	31 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: c	: 
+T,Y15-24,INTPRO,EU27_FOR,2008	: c	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 	: c	: c	: 	: 
+T,Y15-24,INTPRO,FOR,2008	: u	: u	: u	: c	: 	: u	: 	8 u	: 	: c	10 u	11 u	: 	: u	5 	23 u	: u
+T,Y15-24,INTPRO,NEU_HDI_H,2008	: c	: 	: c	: c	: 	: c	: 	: c	: 	: 	: c	: u	: 	: c	: u	: c	: u
+T,Y15-24,INTPRO,NEU_HDI_L,2008	: c	: 	: u	: c	: 	: c	: 	: u	: 	: 	53 u	: c	: 	: u	13 u	48 u	: c
+T,Y15-24,INTPRO,NEU_HDI_M,2008	: 	: 	: c	: c	: 	: c	: 	: u	: 	: 	: c	: 	: 	: u	: u	: c	: c
+T,Y15-24,INTPRO,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: c	: 	: u	: c	54 u	: c
+T,Y15-24,INTPRO,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+T,Y15-24,OTH,EU27_FOR,2008	: u	: 	7 	: c	5 u	: c	: c	: 	: 	35 u	: u	: c	: c	: c	7 u	: 	17 u
+T,Y15-24,OTH,FOR,2008	: u	: u	7 	: u	4 	: u	3 u	: 	: 	31 u	9 u	: u	: c	: u	6 	: u	12 u
+T,Y15-24,OTH,NEU_HDI_H,2008	: c	: 	: u	: u	6 	: c	: u	: 	: 	: 	: u	: c	: 	: c	: u	: c	: u
+T,Y15-24,OTH,NEU_HDI_L,2008	: c	: 	: u	: c	: 	: c	: 	: 	: 	: 	: c	: 	: c	: c	: u	: 	: u
+T,Y15-24,OTH,NEU_HDI_M,2008	: 	: 	: c	: 	: c	: c	: c	: 	: 	: 	: u	: c	: 	: c	: c	: c	: c
+T,Y15-24,OTH,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 	: 	: 	: 
+T,Y15-24,OTH,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+T,Y15-24,WRK_JOB,EU27_FOR,2008	: u	: 	14 	: c	6 u	: c	: u	: u	: 	: u	: u	: u	: c	: c	16 	: c	20 u
+T,Y15-24,WRK_JOB,FOR,2008	: u	: u	13 	4 u	7 	: c	9 	18 	: 	: u	4 u	: u	: u	: c	9 	: u	10 u
+T,Y15-24,WRK_JOB,NEU_HDI_H,2008	: 	: 	: u	: u	5 u	: c	10 	: u	: 	: 	: c	: c	: u	: 	: u	: c	: u
+T,Y15-24,WRK_JOB,NEU_HDI_L,2008	: 	: 	: c	: 	: c	: 	: u	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 
+T,Y15-24,WRK_JOB,NEU_HDI_M,2008	: 	: 	: u	: c	8 	: 	: u	44 u	: 	: 	: c	: 	: 	: 	: u	: 	: c
+T,Y15-24,WRK_JOB,NEU_NHDI,2008	: c	: 	: 	: 	: 	: 	: c	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+T,Y15-24,WRK_JOB,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+T,Y15-24,WRK_NJOB,EU27_FOR,2008	: u	: 	59 	34 	40 	: c	27 	50 u	: 	: u	: u	: u	: c	: 	44 	: c	14 u
+T,Y15-24,WRK_NJOB,FOR,2008	: u	: u	50 	47 	28 	: u	24 	26 	: 	: u	4 u	: u	: u	: c	23 	10 u	9 u
+T,Y15-24,WRK_NJOB,NEU_HDI_H,2008	: 	: 	24 u	43 	26 	: c	18 	: u	: 	: 	: 	: c	: u	: c	: c	: 	: u
+T,Y15-24,WRK_NJOB,NEU_HDI_L,2008	: 	: 	: c	93 	: c	: c	36 u	: u	: 	: 	: 	: 	: c	: 	: u	: c	: c
+T,Y15-24,WRK_NJOB,NEU_HDI_M,2008	: 	: 	: u	50 u	21 	: 	22 	: u	: 	: 	: c	: 	: c	: 	: u	: 	: c
+T,Y15-24,WRK_NJOB,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: u	: 	: 	: 	: c	: 	: 	: 	: 	: 	: 
+T,Y15-24,WRK_NJOB,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+T,Y15-64,EDUC,EU27_FOR,2008	5 	: 	4 	9 	2 	: u	4 	: c	: 	: u	9 	14 	: u	7 	16 	5 u	5 
+T,Y15-64,EDUC,FOR,2008	8 	6 	8 	2 	3 	14 	3 	6 	: u	1 u	8 	9 	4 	4 	19 	6 	6 
+T,Y15-64,EDUC,NEU_HDI_H,2008	8 	: 	15 	: u	4 	12 	3 	3 u	: u	: c	4 	5 	: u	3 	26 	10 	5 
+T,Y15-64,EDUC,NEU_HDI_L,2008	18 	: 	19 	: c	4 u	25 	4 	54 	: 	: c	3 u	: u	: u	: u	18 	: u	10 u
+T,Y15-64,EDUC,NEU_HDI_M,2008	8 	: 	24 	: 	3 	20 	2 	5 u	: 	: 	8 	16 u	: u	: u	20 	: u	14 
+T,Y15-64,EDUC,NEU_NHDI,2008	: c	: 	: c	: 	: c	: 	: c	: 	: 	: c	39 	: u	: 	: 	: u	: 	: c
+T,Y15-64,EDUC,NRP,2008	: 	6 	: 	: c	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 
+T,Y15-64,FAM,EU27_FOR,2008	44 	: 	23 	24 	27 	41 	37 	40 	: u	37 	50 	35 	47 	44 	17 	60 	29 
+T,Y15-64,FAM,FOR,2008	46 	44 	23 	21 	30 	47 	34 	27 	33 u	38 	49 	39 	39 	46 	31 	53 	35 
+T,Y15-64,FAM,NEU_HDI_H,2008	45 	: 	27 	21 	31 	52 	36 	26 	33 u	50 	57 	43 	37 	51 	31 	52 	44 
+T,Y15-64,FAM,NEU_HDI_L,2008	31 	: 	22 	14 u	25 	43 	27 	: u	: 	29 u	27 	: u	41 	46 	46 	61 	39 
+T,Y15-64,FAM,NEU_HDI_M,2008	60 	: 	23 	17 	32 	51 	31 	11 	: c	55 	52 	41 	36 	47 	37 	42 	44 
+T,Y15-64,FAM,NEU_NHDI,2008	: 	: 	: u	: 	: c	: 	26 u	: c	: 	: u	18 	37 u	: c	: u	25 	29 u	: u
+T,Y15-64,FAM,NRP,2008	: 	44 	: 	: c	: 	: u	: 	: 	: 	: 	: u	: 	: 	35 	: 	60 u	: 
+T,Y15-64,INTPRO,EU27_FOR,2008	: u	: 	0 u	: u	: c	: u	: c	: c	: 	3 	: u	6 	: 	4 	: u	: c	1 u
+T,Y15-64,INTPRO,FOR,2008	9 	14 	2 	7 	0 	4 	0 	5 	: 	4 	13 	12 	: u	25 	6 	18 	4 
+T,Y15-64,INTPRO,NEU_HDI_H,2008	21 	: 	4 	9 	0 u	5 u	: u	6 	: 	11 u	16 	14 	: 	31 	7 	21 	8 
+T,Y15-64,INTPRO,NEU_HDI_L,2008	31 	: 	27 	: u	: c	: u	2 u	22 u	: 	: c	53 	48 	: u	38 	11 	25 	20 
+T,Y15-64,INTPRO,NEU_HDI_M,2008	: u	: 	: u	: u	: c	: u	: u	8 u	: 	: c	8 	: u	: c	39 	5 	28 	5 u
+T,Y15-64,INTPRO,NEU_NHDI,2008	: c	: 	: u	: 	: c	: 	: 	: 	: 	: u	11 	30 u	: 	58 u	46 	57 	: u
+T,Y15-64,INTPRO,NRP,2008	: 	14 	: 	: u	: 	: c	: 	: 	: 	: 	: c	: 	: 	39 	: 	: 	: 
+T,Y15-64,OTH,EU27_FOR,2008	18 	: 	16 	13 	18 	14 	3 	16 	: u	13 	17 	11 	16 	16 	10 	7 u	15 
+T,Y15-64,OTH,FOR,2008	13 	15 	15 	8 	10 	9 	3 	8 	37 u	14 	14 	6 	13 	11 	12 	11 	14 
+T,Y15-64,OTH,NEU_HDI_H,2008	8 	: 	15 	7 	8 	8 u	4 	4 u	37 u	13 u	10 	3 	6 	8 	15 	13 	13 
+T,Y15-64,OTH,NEU_HDI_L,2008	13 u	: 	12 	: c	4 u	: u	: u	: c	: 	22 u	10 	: c	24 	: u	12 	: u	12 u
+T,Y15-64,OTH,NEU_HDI_M,2008	5 u	: 	7 	7 u	4 	: u	2 	: u	: c	: u	16 	: u	: u	7 u	10 	22 	8 u
+T,Y15-64,OTH,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: c	: 	: c	: c	16 	: c	: c	: c	14 u	: u	: 
+T,Y15-64,OTH,NRP,2008	: 	15 	: 	: u	: 	: 	: 	: 	: 	: 	: c	: 	: 	10 u	: 	: c	: 
+T,Y15-64,WRK_JOB,EU27_FOR,2008	21 	: 	16 	5 	11 	13 u	15 	21 	: c	38 	18 	17 	: u	19 	22 	14 	37 
+T,Y15-64,WRK_JOB,FOR,2008	12 	13 	18 	5 	11 	7 	14 	31 	21 u	35 	8 	9 	8 	9 	15 	6 	26 
+T,Y15-64,WRK_JOB,NEU_HDI_H,2008	7 	: 	21 	5 	11 	6 u	12 	28 	22 u	20 	7 	5 	12 	4 	12 	: u	13 
+T,Y15-64,WRK_JOB,NEU_HDI_L,2008	: u	: 	10 	10 u	8 	: u	14 	: c	: 	: u	: u	: 	: u	: c	4 	: u	11 u
+T,Y15-64,WRK_JOB,NEU_HDI_M,2008	5 u	: 	31 	9 u	9 	: u	15 	65 	: 	: u	5 	11 u	11 	: u	18 	: u	21 
+T,Y15-64,WRK_JOB,NEU_NHDI,2008	: c	: 	: c	: 	: 	: 	: u	: 	: c	: c	: u	: c	: 	: 	: c	: c	: c
+T,Y15-64,WRK_JOB,NRP,2008	: 	13 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	9 u	: 	: u	: c
+T,Y15-64,WRK_NJOB,EU27_FOR,2008	11 	: 	41 	47 	42 	26 	41 	21 	: c	9 	6 	18 	28 	10 	34 	13 	14 
+T,Y15-64,WRK_NJOB,FOR,2008	12 	8 	34 	57 	46 	19 	45 	22 	: u	9 	8 	24 	33 	5 	17 	7 	14 
+T,Y15-64,WRK_NJOB,NEU_HDI_H,2008	11 	: 	18 	58 	46 	17 	44 	33 	: u	: u	6 	31 	44 	3 u	9 	3 u	17 
+T,Y15-64,WRK_NJOB,NEU_HDI_L,2008	: u	: 	10 	71 	55 	16 u	52 	12 u	: 	: c	5 u	23 u	21 	: c	8 	: u	8 u
+T,Y15-64,WRK_NJOB,NEU_HDI_M,2008	20 	: 	14 	63 	51 	15 u	49 	10 	: c	18 u	10 	16 u	35 	: u	10 	: u	8 u
+T,Y15-64,WRK_NJOB,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	65 	: 	: 	: 	14 	: u	: 	: 	: c	: u	: 
+T,Y15-64,WRK_NJOB,NRP,2008	: 	8 	: 	55 u	: 	: c	: 	: 	: 	: 	: 	: 	: 	: u	: 	: 	: 
+T,Y15-74,EDUC,EU27_FOR,2008	5 	: 	4 	9 	2 	: u	4 	: c	: 	: u	8 	13 	: u	7 	16 	3 u	5 
+T,Y15-74,EDUC,FOR,2008	7 	6 	8 	2 	3 	12 	3 	5 	: u	1 u	8 	9 	4 	5 	19 	5 	6 
+T,Y15-74,EDUC,NEU_HDI_H,2008	8 	: 	15 	: u	4 	10 	3 	3 u	: u	: c	3 	5 	: u	3 	25 	9 	5 
+T,Y15-74,EDUC,NEU_HDI_L,2008	18 	: 	19 	: c	4 u	24 	4 	53 	: 	: c	3 u	: u	: u	: u	18 	: u	10 u
+T,Y15-74,EDUC,NEU_HDI_M,2008	7 	: 	24 	: 	3 	18 	2 	5 u	: 	: 	8 	17 u	: u	: u	20 	: u	15 
+T,Y15-74,EDUC,NEU_NHDI,2008	: c	: 	: c	: 	: c	: 	: c	: 	: 	: c	38 	: u	: 	: 	: u	: 	: c
+T,Y15-74,EDUC,NRP,2008	: 	6 	: 	: c	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 
+T,Y15-74,FAM,EU27_FOR,2008	45 	: 	24 	25 	26 	40 	38 	38 	: u	38 	51 	36 	48 	43 	18 	62 	28 
+T,Y15-74,FAM,FOR,2008	46 	42 	24 	21 	30 	46 	35 	28 	31 u	39 	48 	39 	40 	46 	31 	55 	34 
+T,Y15-74,FAM,NEU_HDI_H,2008	44 	: 	28 	21 	31 	49 	37 	26 	30 u	49 	57 	42 	37 	50 	31 	52 	43 
+T,Y15-74,FAM,NEU_HDI_L,2008	31 	: 	22 	14 u	26 	42 	28 	8 u	: 	29 u	27 	: u	42 	45 	45 	63 	39 
+T,Y15-74,FAM,NEU_HDI_M,2008	59 	: 	23 	18 	32 	50 	31 	13 	: u	54 	49 	40 	38 	47 	37 	41 	44 
+T,Y15-74,FAM,NEU_NHDI,2008	: 	: 	: u	: 	: c	: 	26 u	: c	: 	: u	20 	36 u	: c	: u	25 	29 u	: u
+T,Y15-74,FAM,NRP,2008	: 	42 	: 	: c	: 	: u	: 	: 	: 	: 	: u	: 	: 	43 	: 	60 u	: c
+T,Y15-74,INTPRO,EU27_FOR,2008	1 u	: 	0 u	: u	: c	: u	: c	: c	: 	3 	1 u	6 	: 	4 	: u	: c	1 u
+T,Y15-74,INTPRO,FOR,2008	8 	14 	2 	7 	0 	4 	0 	5 	: c	4 	12 	12 	: u	23 	6 	15 	4 
+T,Y15-74,INTPRO,NEU_HDI_H,2008	20 	: 	4 	9 	0 u	6 u	: u	6 	: c	11 u	16 	14 	: 	30 	7 	20 	8 
+T,Y15-74,INTPRO,NEU_HDI_L,2008	30 	: 	26 	: u	: c	: u	2 u	21 u	: 	: c	53 	48 	: u	39 	11 	24 	20 
+T,Y15-74,INTPRO,NEU_HDI_M,2008	: u	: 	: u	: u	: c	: u	: u	8 u	: 	: c	8 	: u	: c	39 	5 	27 	5 u
+T,Y15-74,INTPRO,NEU_NHDI,2008	: c	: 	: u	: 	: c	: 	: c	: 	: 	: u	10 	30 u	: 	58 u	46 	57 	: u
+T,Y15-74,INTPRO,NRP,2008	: 	14 	: 	: u	: 	: c	: 	: 	: 	: 	: c	: 	: 	34 	: 	: 	: 
+T,Y15-74,OTH,EU27_FOR,2008	17 	: 	17 	13 	22 	16 	4 	22 	: u	13 	17 	12 	17 	18 	10 	9 	16 
+T,Y15-74,OTH,FOR,2008	12 	15 	16 	8 	11 	12 	4 	11 	40 	14 	15 	7 	14 	11 	12 	12 	14 
+T,Y15-74,OTH,NEU_HDI_H,2008	8 	: 	15 	7 	9 	12 	5 	4 u	41 	13 u	10 	3 	6 	9 	16 	13 	13 
+T,Y15-74,OTH,NEU_HDI_L,2008	14 	: 	13 	: c	4 u	9 u	: u	: c	: 	22 u	10 	: c	24 	: u	12 	: u	12 u
+T,Y15-74,OTH,NEU_HDI_M,2008	5 u	: 	7 	9 u	4 	: u	2 	: u	: c	: u	18 	: u	: u	7 u	10 	26 	8 u
+T,Y15-74,OTH,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: c	: 	: c	: c	16 	: c	: c	: c	14 u	: u	: 
+T,Y15-74,OTH,NRP,2008	: 	15 	: 	: u	: 	: 	: 	: 	: 	: 	: u	: 	: 	9 u	: 	: c	: c
+T,Y15-74,WRK_JOB,EU27_FOR,2008	21 	: 	15 	5 	11 	13 	15 	19 	: c	37 	18 	16 	: u	19 	22 	16 	36 
+T,Y15-74,WRK_JOB,FOR,2008	13 	13 	17 	5 	11 	8 	14 	30 	21 u	34 	9 	9 	8 	9 	14 	8 	27 
+T,Y15-74,WRK_JOB,NEU_HDI_H,2008	7 	: 	21 	5 	11 	6 u	12 	28 	22 u	20 	8 	6 	12 	4 	12 	: u	14 
+T,Y15-74,WRK_JOB,NEU_HDI_L,2008	: u	: 	10 	10 u	8 	: u	14 	: c	: 	: u	: u	: 	: u	: c	5 	: u	11 u
+T,Y15-74,WRK_JOB,NEU_HDI_M,2008	6 u	: 	31 	9 u	9 	9 u	15 	63 	: 	: u	6 	11 u	11 	: u	17 	: u	21 
+T,Y15-74,WRK_JOB,NEU_NHDI,2008	: c	: 	: c	: 	: 	: 	: u	: 	: c	: c	3 u	: c	: 	: 	: c	: c	: c
+T,Y15-74,WRK_JOB,NRP,2008	: 	13 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	8 u	: 	: u	: c
+T,Y15-74,WRK_NJOB,EU27_FOR,2008	11 	: 	40 	46 	39 	26 	39 	19 	: c	9 	6 	17 	27 	11 	34 	10 	15 
+T,Y15-74,WRK_NJOB,FOR,2008	13 	9 	33 	56 	45 	19 	44 	21 	: u	9 	8 	24 	32 	6 	17 	7 	15 
+T,Y15-74,WRK_NJOB,NEU_HDI_H,2008	13 	: 	17 	57 	45 	17 	43 	32 	: u	: u	6 	31 	44 	4 	9 	5 u	17 
+T,Y15-74,WRK_NJOB,NEU_HDI_L,2008	: u	: 	10 	71 	55 	16 u	52 	12 u	: 	: c	5 u	23 u	19 	: c	8 	: u	8 u
+T,Y15-74,WRK_NJOB,NEU_HDI_M,2008	21 	: 	14 	60 	51 	15 u	49 	10 	: c	17 u	11 	16 u	34 	: u	11 	: u	8 u
+T,Y15-74,WRK_NJOB,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	64 	: 	: 	: 	13 	: u	: 	: 	: c	: u	: 
+T,Y15-74,WRK_NJOB,NRP,2008	: 	9 	: 	55 u	: 	: c	: 	: 	: 	: 	: 	: 	: 	: u	: 	: 	: 
+T,Y25-54,EDUC,EU27_FOR,2008	5 u	: 	3 	3 u	2 	: u	4 	: 	: 	: u	6 	12 	: c	7 	15 	9 u	5 
+T,Y25-54,EDUC,FOR,2008	7 	6 	7 	1 u	3 	14 	3 	4 	: u	1 u	7 	8 	4 	4 	18 	6 	5 
+T,Y25-54,EDUC,NEU_HDI_H,2008	7 u	: 	12 	: u	3 	12 u	3 	2 u	: u	: c	3 	5 	: u	3 u	23 	7 u	5 
+T,Y25-54,EDUC,NEU_HDI_L,2008	16 u	: 	13 	: c	4 u	22 u	4 	48 	: 	: c	3 u	: u	: u	: u	18 	: u	10 u
+T,Y25-54,EDUC,NEU_HDI_M,2008	8 u	: 	19 	: 	3 	19 u	2 u	4 u	: 	: 	7 	16 u	: u	: u	15 	: c	13 u
+T,Y25-54,EDUC,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: 	: 	: 	: 	35 	: u	: 	: 	: u	: 	: c
+T,Y25-54,EDUC,NRP,2008	: 	6 	: 	: c	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 
+T,Y25-54,FAM,EU27_FOR,2008	44 	: 	23 	24 	26 	43 	33 	45 	: u	36 	50 	33 	48 	55 	18 	58 	29 
+T,Y25-54,FAM,FOR,2008	46 	46 	24 	20 	27 	51 	31 	28 	33 u	38 	51 	39 	37 	50 	32 	54 	37 
+T,Y25-54,FAM,NEU_HDI_H,2008	45 	: 	28 	19 	28 	56 	34 	23 	32 u	50 	60 	45 	33 	51 	31 	57 	45 
+T,Y25-54,FAM,NEU_HDI_L,2008	30 	: 	24 	18 u	25 	48 	26 	: u	: 	28 u	26 	: u	41 	50 	46 	67 	40 
+T,Y25-54,FAM,NEU_HDI_M,2008	60 	: 	23 	14 u	27 	55 	28 	11 	: c	52 	55 	39 	33 	46 	37 	46 	47 
+T,Y25-54,FAM,NEU_NHDI,2008	: 	: 	: c	: 	: c	: 	22 u	: c	: 	: u	19 	38 u	: 	: u	22 u	: u	: u
+T,Y25-54,FAM,NRP,2008	: 	46 	: 	: c	: 	: c	: 	: 	: 	: 	: u	: 	: 	39 	: 	52 u	: 
+T,Y25-54,INTPRO,EU27_FOR,2008	: u	: 	0 u	: u	: 	: u	: 	: 	: 	3 	: c	6 	: 	: u	: u	: 	: u
+T,Y25-54,INTPRO,FOR,2008	11 	15 	3 	7 	0 	4 u	0 u	5 	: 	4 	14 	13 	: u	28 	7 	18 	5 
+T,Y25-54,INTPRO,NEU_HDI_H,2008	23 	: 	4 u	9 	0 u	: u	: u	7 	: 	13 u	17 	15 	: 	32 	8 	20 	9 
+T,Y25-54,INTPRO,NEU_HDI_L,2008	35 	: 	28 	: c	: c	: u	: u	25 u	: 	: c	53 	45 	: u	39 	11 	21 u	21 
+T,Y25-54,INTPRO,NEU_HDI_M,2008	: u	: 	: u	: u	: c	: c	: c	7 u	: 	: c	9 	: u	: c	40 	6 	25 	4 u
+T,Y25-54,INTPRO,NEU_NHDI,2008	: c	: 	: u	: 	: c	: 	: 	: 	: 	: u	13 	31 u	: 	: u	46 	64 	: u
+T,Y25-54,INTPRO,NRP,2008	: 	15 	: 	: u	: 	: c	: 	: 	: 	: 	: c	: 	: 	50 	: 	: 	: 
+T,Y25-54,OTH,EU27_FOR,2008	16 	: 	16 	15 	16 	14 u	4 	11 	: u	13 	17 	10 	: u	13 	10 	11 u	14 
+T,Y25-54,OTH,FOR,2008	11 	15 	15 	8 	9 	8 	3 	6 	40 u	13 	13 	6 	12 	9 	12 	13 	13 
+T,Y25-54,OTH,NEU_HDI_H,2008	9 	: 	16 	7 	8 	: u	4 	4 u	41 u	11 u	9 	3 u	7 	8 	16 	12 	13 
+T,Y25-54,OTH,NEU_HDI_L,2008	11 u	: 	11 	: c	5 u	: u	: u	: c	: 	22 u	10 	: c	20 	: u	11 	: u	11 u
+T,Y25-54,OTH,NEU_HDI_M,2008	6 u	: 	7 	: u	4 	: u	2 	: c	: c	: u	16 	: u	: u	7 u	11 	22 	8 u
+T,Y25-54,OTH,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: c	: 	: c	: c	17 	: c	: 	: c	16 u	: u	: 
+T,Y25-54,OTH,NRP,2008	: 	15 	: 	: u	: 	: 	: 	: 	: 	: 	: c	: 	: 	: u	: 	: c	: 
+T,Y25-54,WRK_JOB,EU27_FOR,2008	23 	: 	17 	6 	11 	16 u	16 	23 	: c	39 	20 	19 	: u	15 	24 	11 u	39 
+T,Y25-54,WRK_JOB,FOR,2008	12 	11 	19 	5 	11 	7 	14 	35 	19 u	35 	8 	10 	9 	6 	16 	4 	26 
+T,Y25-54,WRK_JOB,NEU_HDI_H,2008	5 u	: 	23 	5 	12 	: u	12 	30 	21 u	18 	6 	5 	11 	4 	13 	: u	12 
+T,Y25-54,WRK_JOB,NEU_HDI_L,2008	: u	: 	11 	11 u	7 u	: u	13 	: c	: 	: u	: u	: 	: u	: c	5 	: c	10 u
+T,Y25-54,WRK_JOB,NEU_HDI_M,2008	: u	: 	34 	10 u	10 	: u	16 	68 	: 	: u	4 	: u	: u	: u	20 	: c	21 
+T,Y25-54,WRK_JOB,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	: c	: 	: 	: c	: c	: c	: 	: 	: c	: c	: c
+T,Y25-54,WRK_JOB,NRP,2008	: 	11 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: c	: 	: u	: c
+T,Y25-54,WRK_NJOB,EU27_FOR,2008	11 	: 	40 	50 	45 	22 	44 	21 	: c	9 	6 	20 	30 	7 	33 	10 u	13 
+T,Y25-54,WRK_NJOB,FOR,2008	12 	8 	33 	59 	50 	17 	48 	22 	: u	9 	8 	24 	37 	3 	16 	6 	14 
+T,Y25-54,WRK_NJOB,NEU_HDI_H,2008	11 	: 	17 	60 	48 	15 	47 	34 	: u	: u	6 	27 	48 	: u	9 	: u	17 
+T,Y25-54,WRK_NJOB,NEU_HDI_L,2008	: u	: 	12 	67 	56 	14 u	54 	: u	: 	: c	6 u	28 u	25 	: c	8 	: u	9 u
+T,Y25-54,WRK_NJOB,NEU_HDI_M,2008	20 	: 	15 	67 	56 	14 u	52 	9 u	: c	18 u	10 	16 u	38 	: u	11 	: u	8 u
+T,Y25-54,WRK_NJOB,NEU_NHDI,2008	: 	: 	: c	: 	: 	: 	72 	: 	: 	: 	14 	: u	: 	: 	: c	: c	: 
+T,Y25-54,WRK_NJOB,NRP,2008	: 	8 	: 	51 u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: u	: 	: 	: 
+T,Y55-74,EDUC,EU27_FOR,2008	: c	: 	: u	: c	: 	: u	4 u	: 	: 	: c	: u	: u	: c	6 	10 u	: 	4 
+T,Y55-74,EDUC,FOR,2008	4 u	: u	: u	: c	2 	4 u	4 	: 	: c	: c	5 	4 u	: u	5 	15 	: 	4 
+T,Y55-74,EDUC,NEU_HDI_H,2008	: u	: 	: u	: 	3 u	: u	: u	: 	: c	: 	: c	: u	: c	: u	20 	: 	4 u
+T,Y55-74,EDUC,NEU_HDI_L,2008	: u	: 	: c	: 	: 	: u	: c	: 	: 	: 	: 	: c	: c	: c	16 	: 	: c
+T,Y55-74,EDUC,NEU_HDI_M,2008	: u	: 	: u	: 	4 u	: u	: u	: 	: 	: 	9 	: u	: c	: c	15 	: 	22 u
+T,Y55-74,EDUC,NEU_NHDI,2008	: 	: 	: 	: 	: c	: 	: c	: 	: 	: 	18 u	: c	: 	: 	: 	: 	: 
+T,Y55-74,EDUC,NRP,2008	: 	: u	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 
+T,Y55-74,FAM,EU27_FOR,2008	48 	: 	44 	40 	19 	37 	64 	25 	: c	42 	57 	47 	: u	31 	29 	65 	26 
+T,Y55-74,FAM,FOR,2008	45 	37 	44 	23 	31 	39 	48 	30 	30 u	42 	42 	34 	48 	36 	37 	57 	26 
+T,Y55-74,FAM,NEU_HDI_H,2008	39 	: 	48 u	17 	46 	40 	45 	29 u	28 u	46 u	39 	23 	: u	42 	35 	36 	27 
+T,Y55-74,FAM,NEU_HDI_L,2008	: u	: 	: u	: 	: c	: u	26 u	: c	: 	: c	31 u	: c	42 	: c	40 	: c	: u
+T,Y55-74,FAM,NEU_HDI_M,2008	46 	: 	: u	: u	38 	43 u	31 	74 u	: c	: u	34 	: u	: u	43 u	45 	: c	26 u
+T,Y55-74,FAM,NEU_NHDI,2008	: 	: 	: c	: 	: c	: 	: c	: 	: 	: 	32 u	: c	: c	: c	: c	: c	: 
+T,Y55-74,FAM,NRP,2008	: 	37 	: 	: 	: 	: c	: 	: 	: 	: 	: c	: 	: 	46 	: 	: 	: c
+T,Y55-74,INTPRO,EU27_FOR,2008	: u	: 	: c	: c	: c	: u	: c	: c	: 	: u	3 u	8 u	: 	4 u	: c	: c	2 u
+T,Y55-74,INTPRO,FOR,2008	3 u	14 	: u	12 	: c	: u	: u	: c	: c	: u	8 	9 	: u	14 	4 	7 	3 
+T,Y55-74,INTPRO,NEU_HDI_H,2008	: u	: 	: 	15 	: c	: u	: c	: 	: c	: c	15 	8 u	: 	29 	: u	25 u	5 u
+T,Y55-74,INTPRO,NEU_HDI_L,2008	: c	: 	: c	: 	: 	: u	: c	: 	: 	: 	53 u	: c	: u	: u	9 u	: c	: u
+T,Y55-74,INTPRO,NEU_HDI_M,2008	: 	: 	: c	: c	: 	: u	: u	: 	: 	: 	6 	: 	: c	: u	: u	50 u	: u
+T,Y55-74,INTPRO,NEU_NHDI,2008	: 	: 	: c	: 	: c	: 	: c	: 	: 	: 	: u	: c	: 	: c	: c	: c	: 
+T,Y55-74,INTPRO,NRP,2008	: 	14 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	16 u	: 	: 	: 
+T,Y55-74,OTH,EU27_FOR,2008	19 	: 	40 	17 u	55 	19 u	8 u	56 	: c	11 	21 	18 	: u	22 	16 	8 	19 
+T,Y55-74,OTH,FOR,2008	15 	16 	38 	18 	34 	18 	8 	44 	41 u	12 	21 	10 	29 	17 	16 	11 	18 
+T,Y55-74,OTH,NEU_HDI_H,2008	: u	: 	31 u	17 	12 	20 u	12 	: u	41 u	: u	15 	: u	: u	12 	17 	22 u	17 
+T,Y55-74,OTH,NEU_HDI_L,2008	: u	: 	: u	: c	: 	: u	: c	: 	: 	: c	: c	: 	38 	: c	19 	: 	: c
+T,Y55-74,OTH,NEU_HDI_M,2008	: u	: 	: u	: u	15 	: u	: u	: c	: 	: c	25 	: 	: c	: c	14 	: c	: u
+T,Y55-74,OTH,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	18 u	: 	: c	: 	: c	: 	: 
+T,Y55-74,OTH,NRP,2008	: 	16 	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	: 	: u	: 	: 	: c
+T,Y55-74,WRK_JOB,EU27_FOR,2008	19 	: 	9 	: c	12 	11 u	11 	10 u	: 	35 	15 	9 u	: c	22 	19 	19 	32 
+T,Y55-74,WRK_JOB,FOR,2008	17 	20 	9 	5 u	12 	11 	14 	13 	24 u	34 	13 	10 	: u	16 	12 	15 	31 
+T,Y55-74,WRK_JOB,NEU_HDI_H,2008	17 u	: 	: u	: u	14 	: u	14 	20 u	24 u	30 u	20 	11 u	: u	: u	10 u	: c	25 
+T,Y55-74,WRK_JOB,NEU_HDI_L,2008	: 	: 	: c	: c	: 	: u	24 u	: 	: 	: c	: c	: 	: u	: 	: u	: c	: u
+T,Y55-74,WRK_JOB,NEU_HDI_M,2008	: u	: 	: u	: c	8 u	: u	19 u	: c	: 	: c	11 	: c	: c	: c	13 u	: c	23 u
+T,Y55-74,WRK_JOB,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: 	: 	: c	: 	12 u	: 	: 	: 	: 	: 	: 
+T,Y55-74,WRK_JOB,NRP,2008	: 	20 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	: 	17 u	: 	: c	: 
+T,Y55-74,WRK_NJOB,EU27_FOR,2008	12 	: 	6 	33 u	13 	31 	11 	7 u	: 	10 	4 u	12 u	: u	14 	24 	8 	17 
+T,Y55-74,WRK_NJOB,FOR,2008	16 	11 	6 	42 	20 	24 	24 	12 	: u	9 	11 	33 	: u	12 	15 	9 	17 
+T,Y55-74,WRK_NJOB,NEU_HDI_H,2008	23 u	: 	: c	46 	26 	19 u	27 	38 u	: u	: c	9 u	53 	: u	9 u	13 u	: c	22 
+T,Y55-74,WRK_NJOB,NEU_HDI_L,2008	: c	: 	: c	: c	: 	: u	43 u	: 	: 	: 	: c	: c	: u	: c	10 u	: c	: c
+T,Y55-74,WRK_NJOB,NEU_HDI_M,2008	31 	: 	: c	: u	35 	: u	37 	: 	: 	: u	16 	: u	: u	: c	12 u	: c	: u
+T,Y55-74,WRK_NJOB,NEU_NHDI,2008	: 	: 	: 	: 	: 	: 	: c	: 	: 	: 	14 u	: u	: 	: 	: 	: c	: 
+T,Y55-74,WRK_NJOB,NRP,2008	: 	11 	: 	: c	: 	: c	: 	: 	: 	: 	: 	: 	: 	: u	: 	: 	: 
