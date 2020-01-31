@@ -25,4 +25,6 @@ print(migr_reason)
 ```
 
 ### Источники:
-1. https://ec.europa.eu/eurostat/data/database
+1. [Eurostat](https://ec.europa.eu/eurostat/data/database)
+2. [Datahub](https://datahub.io/)
+3. [Worldbank](https://data.worldbank.org/)
