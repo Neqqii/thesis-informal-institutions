@@ -1,5 +1,13 @@
 import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
 import os
+import plotly.offline as pyo
+import plotly as ply
+import plotly.tools as tls
+import plotly.graph_objs as go
+import cufflinks as cfl
 
 os.chdir('C:\\Users\\Nvmind\\github\\thesis-informal-institutions\\Research\\Datasets')
 
@@ -29,10 +37,8 @@ aux_colnames2 = aux_df2.columns
 print(aux_colnames2)
 
 # Оставляем нужные столбцы
-pops = aux_df2[['Country Name', 'Country Code',
-                '1990 [YR1990]', '2000 [YR2000]',
-                '2010 [YR2010]', '2017 [YR2017]',
-                '2018 [YR2018]', '2019 [YR2019]']]
+pops = aux_df2[['Country Code',
+                '1990 [YR1990]']]
 
 print(pops)
 
@@ -43,11 +49,7 @@ aux_colnames3 = aux_df3.columns
 print(aux_colnames3)
 
 # Оставляем нужные столбцы
-emigration_total = aux_df3[['geo',
-                            '2006 ', '2007 ', '2008 ', '2009 ',
-                            '2010 ', '2011 ', '2012 ', '2013 ',
-                            '2014 ', '2015 ',
-                            '2016 ', '2017 ']]
+emigration_total = aux_df3[['geo', '2017 ']]
 
 print(emigration_total)
 
@@ -65,3 +67,12 @@ immigration_total = aux_df4[['geo',
                              '2016 ', '2017 ']]
 
 print(immigration_total)
+
+# Визуализация
+country_code = pops[0:27]['Country Code']
+pops_17 = pops[0:27]['1990 [YR1990]']
+pops_hist = go.Figure([go.Bar(x=country_code, y=pops_17)],
+                      fill="tozerox",
+                      fillcolor="#1f77b4",
+                      mode="lines")
+pops_hist.show()
