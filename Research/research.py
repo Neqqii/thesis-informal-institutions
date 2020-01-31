@@ -68,11 +68,17 @@ immigration_total = aux_df4[['geo',
 
 print(immigration_total)
 
+# Создаем словарь для кодов стран
+ccodes_dict = {'AT': 'Austria', 'BE': 'Belgium', 'BG': 'Bulgaria', 'CY': 'Cyprus',
+               'CZ': 'Czechia', 'DE': 'Germany', 'DK': 'Denmark',  'EE': 'Estonia',
+               'EL': 'Greece',  'ES': 'Spain',   'FI': 'Finland',  'FR': 'France',
+               'HR': 'Croatia', 'HU': 'Hungary', 'IE': 'Ireland',  'IT': 'Italy',
+               'LT': 'Lithuania', 'LV': 'Latvia', 'MT': 'Malta', 'NL': 'Netherlands',
+               'PL': 'Poland', 'PT': 'Portugal', 'RO': 'Romania', 'SE': 'Sweden',
+               'SL': 'Slovenia', 'SK': 'Slovakia', 'UK': 'United Kingdom', 'LU': 'Luxembourg'}
+
 # Визуализация
 country_code = pops[0:27]['Country Code']
 pops_17 = pops[0:27]['1990 [YR1990]']
-pops_hist = go.Figure([go.Bar(x=country_code, y=pops_17)],
-                      fill="tozerox",
-                      fillcolor="#1f77b4",
-                      mode="lines")
+pops_hist = go.Figure([go.Bar(x=country_code, y=pops_17)])
 pops_hist.show()
