@@ -9,6 +9,8 @@ import plotly.tools as tls
 import plotly.graph_objs as go
 import cufflinks as cfl
 
+# -*- coding: utf-8 -*-
+
 os.chdir('C:\\Users\\Nvmind\\github\\thesis-informal-institutions\\Research\\Datasets')
 
 # Импорт датасета (GDP growth)
@@ -30,6 +32,18 @@ gdp_annual_growth = aux_df1[['Country Name', 'Country Code',
 
 print(gdp_annual_growth)
 
+# Импорт датасета (GDP)
+aux_df5 = pd.read_csv('gdp_constant_prices.csv')
+
+aux_colnames5 = aux_df5.columns
+print(aux_colnames5)
+
+# Оставляем нужные столбцы
+gdp = aux_df5[['Country Name', 'Country Code',
+               '2017 [YR2017]']]
+
+print(gdp)
+
 # Импорт датасета (population)
 aux_df2 = pd.read_csv('population_90to19.csv')
 
@@ -37,7 +51,7 @@ aux_colnames2 = aux_df2.columns
 print(aux_colnames2)
 
 # Оставляем нужные столбцы
-pops = aux_df2[['Country Code',
+pops = aux_df2[['Country Name',
                 '1990 [YR1990]']]
 
 print(pops)
