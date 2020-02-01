@@ -143,10 +143,11 @@ eu_scatter = go.Figure(data=[go.Scatter(
     text=hover_text,
     mode='markers',
     marker=dict(
-        color=eu_df['GDP'],
+        color=np.log10(eu_df['GDP']),
         colorscale='Viridis',
-        cmin=12949237121.738998,
-        cmax=4278004030164.74,
+        colorbar=dict(title='<b>GDP, log</b>'),
+        cmin=np.log10(12949237121.738998),
+        cmax=np.log10(4278004030164.74),
         size=bubble_size,
         sizemin=4,
         sizemode='area',
@@ -157,15 +158,15 @@ eu_scatter = go.Figure(data=[go.Scatter(
 )])
 
 eu_scatter.update_layout(
-    title='Emigration v. Immigration, 2017',
+    title='<b>Emigration v. Immigration, 2017</b>',
     xaxis=dict(
-        title='Immigration',
+        title='<b>Immigration</b>',
         gridcolor='#EBF0F8',
         type='log',
         gridwidth=2,
     ),
     yaxis=dict(
-        title='Emigration',
+        title='<b>Emigration</b>',
         gridcolor='#EBF0F8',
         type='log',
         gridwidth=2,
