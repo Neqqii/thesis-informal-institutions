@@ -179,3 +179,4 @@ os.path.relpath(
     'C:\\Users\\Nvmind\\github\\thesis-informal-institutions\\Research\\Graphics', start=None)
 eu_scatter.show()
 eu_scatter.write_image('..\\Graphics\\ImmiEmi.svg')
+eu_scatter.write_image('..\\Graphics\\ImmiEmi.png')
