@@ -62,7 +62,7 @@ pops = aux_df2[0:28][['Country Name',
 pops = pops.sort_values(by=['Country Name']).reset_index(drop=True)
 
 ```
-![Immigration vs Emigration](Graphics/ImmiEmi_EU.html)
+![Immigration vs Emigration](https://plot.ly/~Neqqi/1/)
 
 ![Immigration vs Emigration](Graphics/ImmiEmi.png)
 
