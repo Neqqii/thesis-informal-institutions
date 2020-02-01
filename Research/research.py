@@ -36,10 +36,11 @@ aux_df5 = pd.read_csv('gdp_constant_prices.csv')
 aux_colnames5 = aux_df5.columns
 print(aux_colnames5)
 
-# Оставляем нужные столбцы
+# Приводим данные в нормальный вид
 gdp = aux_df5[0:28][['Country Name',
                      '2017 [YR2017]']]
 
+# Сортируем
 gdp = gdp.sort_values(by=['Country Name']).reset_index(drop=True)
 
 print(gdp)
@@ -50,10 +51,11 @@ aux_df2 = pd.read_csv('population_90to19.csv')
 aux_colnames2 = aux_df2.columns
 print(aux_colnames2)
 
-# Оставляем нужные столбцы
+# Приводим данные в нормальный вид
 pops = aux_df2[0:28][['Country Name',
                       '2017 [YR2017]']]
 
+# Сортируем
 pops = pops.sort_values(by=['Country Name']).reset_index(drop=True)
 
 print(pops)
@@ -77,11 +79,12 @@ aux_df3 = pd.read_csv('tps00177.csv')
 aux_colnames3 = aux_df3.columns
 print(aux_colnames3)
 
-# Оставляем нужные столбцы
+# Приводим данные в нормальный вид
 emigration_total = aux_df3[['geo', '2017']]
 
 emigration_total['geo'] = emigration_total['geo'].map(ccodes_dict)
 
+# Сортируем
 emigration_total = emigration_total.sort_values('geo').reset_index(drop=True)
 
 print(emigration_total)
@@ -92,11 +95,12 @@ aux_df4 = pd.read_csv('tps00176.csv')
 aux_colnames4 = aux_df4.columns
 print(aux_colnames4)
 
-# Оставляем нужные столбцы
+# Приводим данные в нормальный вид
 immigration_total = aux_df4[['geo', '2017']]
 
 immigration_total['geo'] = immigration_total['geo'].map(ccodes_dict)
 
+# Сортируем
 immigration_total = immigration_total.sort_values('geo').reset_index(drop=True)
 
 print(immigration_total)
@@ -111,25 +115,60 @@ eu_df = pd.DataFrame(eu_consolidate)
 print(eu_df)
 
 # Визуализация
+
+# Гистограмма населения
 country_name = eu_df['Country']
 pops_17 = eu_df['Population']
 pops_hist = go.Figure([go.Bar(x=country_name, y=pops_17)])
 pops_hist.show()
 
+# Биг плоу
 hover_text = []
+bubble_size = []
+
+for index, row in eu_df.iterrows():
+    hover_text.append(('Country: {country}<br>' +
+                       'Population: {popul}<br>' +
+                       'GDP: {gdp}<br>' +
+                       'Immigration: {immi}<br>' +
+                       'Emigration: {emi}').format(country=row['Country'],
+                                                   popul=row['Population'],
+                                                   gdp=row['GDP'],
+                                                   immi=row['Immigration'],
+                                                   emi=row['Emigration']))
+    bubble_size.append(np.sqrt(row['Population']))
 
 eu_scatter = go.Figure(data=[go.Scatter(
     x=eu_df['Immigration'],
     y=eu_df['Emigration'],
+    text=hover_text,
     mode='markers',
     marker=dict(
         color=eu_df['GDP'],
-        size=eu_df['Population'],
+        size=bubble_size,
         sizemode='area',
-        sizeref=2.*max(eu_df['Population'])/(40.**2),
-        sizemin=4,
+        sizeref=2.*max(bubble_size)/(100**2),
+        line_width=1.4,
         showscale=True
     )
 )])
+
+eu_scatter.update_layout(
+    title='Emigration v. Immigration, 2017',
+    xaxis=dict(
+        title='Immigration',
+        gridcolor='white',
+        type='log',
+        gridwidth=2,
+    ),
+    yaxis=dict(
+        title='Emigration',
+        gridcolor='white',
+        type='log',
+        gridwidth=2,
+    ),
+    paper_bgcolor='rgb(243, 243, 243)',
+    plot_bgcolor='rgb(243, 243, 243)',
+)
 
 eu_scatter.show()
