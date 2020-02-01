@@ -64,7 +64,7 @@ pops = pops.sort_values(by=['Country Name']).reset_index(drop=True)
 ```
 ![Immigration vs Emigration](http://127.0.0.1:57172/)
 
-![Immigration vs Emigration](C:\Users\Nvmind\github\thesis-informal-institutions\Research\Graphics\ImmieEmi)
+![Immigration vs Emigration](Research/Graphics/ImmiEmi.png)
 
 ### Источники:
 1. [Eurostat](https://ec.europa.eu/eurostat/data/database)
