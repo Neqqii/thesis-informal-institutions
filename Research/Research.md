@@ -62,6 +62,13 @@ pops = aux_df2[0:28][['Country Name',
 pops = pops.sort_values(by=['Country Name']).reset_index(drop=True)
 
 ```
+```html
+<div>
+    <a href="https://plot.ly/~Neqqi/1/?share_key=xSPsmwouDwTC0APKUTdDSP" target="_blank" title="ImmiEmi_EU" style="display: block; text-align: center;"><img src="https://plot.ly/~Neqqi/1.png?share_key=xSPsmwouDwTC0APKUTdDSP" alt="ImmiEmi_EU" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="Neqqi:1" sharekey-plotly="xSPsmwouDwTC0APKUTdDSP" src="https://plot.ly/embed.js" async></script>
+</div>
+```
+
 ![Immigration vs Emigration](https://plot.ly/~Neqqi/1/)
 
 ![Immigration vs Emigration](Graphics/ImmiEmi.png)
