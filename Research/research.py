@@ -150,8 +150,8 @@ eu_scatter = go.Figure(data=[go.Scatter(
         size=bubble_size,
         sizemin=4,
         sizemode='area',
-        sizeref=2.*max(bubble_size)/(100**2),
-        line_width=1.4,
+        sizeref=4.*max(bubble_size)/(100**2),
+        line_width=1,
         showscale=True
     )
 )])
@@ -160,18 +160,18 @@ eu_scatter.update_layout(
     title='Emigration v. Immigration, 2017',
     xaxis=dict(
         title='Immigration',
-        gridcolor='white',
+        gridcolor='#EBF0F8',
         type='log',
         gridwidth=2,
     ),
     yaxis=dict(
         title='Emigration',
-        gridcolor='white',
+        gridcolor='#EBF0F8',
         type='log',
         gridwidth=2,
     ),
-    paper_bgcolor='rgb(243, 243, 243)',
-    plot_bgcolor='rgb(243, 243, 243)',
+    paper_bgcolor='rgb(255, 255, 255)',
+    plot_bgcolor='rgb(255, 255, 255)',
 )
 
 os.path.relpath(
