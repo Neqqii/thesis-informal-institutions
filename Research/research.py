@@ -9,8 +9,6 @@ import plotly.tools as tls
 import plotly.graph_objs as go
 import cufflinks as cfl
 
-# -*- coding: utf-8 -*-
-
 os.chdir('C:\\Users\\Nvmind\\github\\thesis-informal-institutions\\Research\\Datasets')
 
 # Импорт датасета (GDP growth)
@@ -20,15 +18,15 @@ aux_colnames1 = aux_df1.columns
 print(aux_colnames1)
 
 # Оставляем нужные столбцы
-gdp_annual_growth = aux_df1[['Country Name', 'Country Code',
-                             '1990 [YR1990]', '1991 [YR1991]', '1992 [YR1992]', '1993 [YR1993]',
-                             '1994 [YR1994]', '1995 [YR1995]', '1996 [YR1996]', '1997 [YR1997]',
-                             '1998 [YR1998]', '1999 [YR1999]', '2000 [YR2000]', '2001 [YR2001]',
-                             '2002 [YR2002]', '2003 [YR2003]', '2004 [YR2004]', '2005 [YR2005]',
-                             '2006 [YR2006]', '2007 [YR2007]', '2008 [YR2008]', '2009 [YR2009]',
-                             '2010 [YR2010]', '2011 [YR2011]', '2012 [YR2012]', '2013 [YR2013]',
-                             '2014 [YR2014]', '2015 [YR2015]', '2016 [YR2016]', '2017 [YR2017]',
-                             '2018 [YR2018]', '2019 [YR2019]']]
+gdp_annual_growth = aux_df1[0:28][['Country Name', 'Country Code',
+                                   '1990 [YR1990]', '1991 [YR1991]', '1992 [YR1992]', '1993 [YR1993]',
+                                   '1994 [YR1994]', '1995 [YR1995]', '1996 [YR1996]', '1997 [YR1997]',
+                                   '1998 [YR1998]', '1999 [YR1999]', '2000 [YR2000]', '2001 [YR2001]',
+                                   '2002 [YR2002]', '2003 [YR2003]', '2004 [YR2004]', '2005 [YR2005]',
+                                   '2006 [YR2006]', '2007 [YR2007]', '2008 [YR2008]', '2009 [YR2009]',
+                                   '2010 [YR2010]', '2011 [YR2011]', '2012 [YR2012]', '2013 [YR2013]',
+                                   '2014 [YR2014]', '2015 [YR2015]', '2016 [YR2016]', '2017 [YR2017]',
+                                   '2018 [YR2018]', '2019 [YR2019]']]
 
 print(gdp_annual_growth)
 
@@ -39,8 +37,10 @@ aux_colnames5 = aux_df5.columns
 print(aux_colnames5)
 
 # Оставляем нужные столбцы
-gdp = aux_df5[['Country Name', 'Country Code',
-               '2017 [YR2017]']]
+gdp = aux_df5[0:28][['Country Name',
+                     '2017 [YR2017]']]
+
+gdp = gdp.sort_values(by=['Country Name']).reset_index(drop=True)
 
 print(gdp)
 
@@ -51,10 +51,25 @@ aux_colnames2 = aux_df2.columns
 print(aux_colnames2)
 
 # Оставляем нужные столбцы
-pops = aux_df2[['Country Name',
-                '1990 [YR1990]']]
+pops = aux_df2[0:28][['Country Name',
+                      '2017 [YR2017]']]
+
+pops = pops.sort_values(by=['Country Name']).reset_index(drop=True)
 
 print(pops)
+
+# Создаем словарь для кодов стран
+ccodes = ['AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'EL', 'ES', 'FI', 'FR',
+          'HR', 'HU', 'IE',  'IT', 'LT', 'LV', 'MT', 'NL', 'PL', 'PT', 'RO', 'SE',
+          'SL', 'SK', 'UK', 'LU']
+
+ccodes_dict = {'AT': 'Austria', 'BE': 'Belgium', 'BG': 'Bulgaria', 'CY': 'Cyprus',
+               'CZ': 'Czech Republic', 'DE': 'Germany', 'DK': 'Denmark',  'EE': 'Estonia',
+               'EL': 'Greece',  'ES': 'Spain',   'FI': 'Finland',  'FR': 'France',
+               'HR': 'Croatia', 'HU': 'Hungary', 'IE': 'Ireland',  'IT': 'Italy',
+               'LT': 'Lithuania', 'LV': 'Latvia', 'MT': 'Malta', 'NL': 'Netherlands',
+               'PL': 'Poland', 'PT': 'Portugal', 'RO': 'Romania', 'SE': 'Sweden',
+               'SI': 'Slovenia', 'SK': 'Slovak Republic', 'UK': 'United Kingdom', 'LU': 'Luxembourg'}
 
 # Импорт датасета (emigration)
 aux_df3 = pd.read_csv('tps00177.csv')
@@ -63,7 +78,11 @@ aux_colnames3 = aux_df3.columns
 print(aux_colnames3)
 
 # Оставляем нужные столбцы
-emigration_total = aux_df3[['geo', '2017 ']]
+emigration_total = aux_df3[['geo', '2017']]
+
+emigration_total['geo'] = emigration_total['geo'].map(ccodes_dict)
+
+emigration_total = emigration_total.sort_values('geo').reset_index(drop=True)
 
 print(emigration_total)
 
@@ -74,25 +93,43 @@ aux_colnames4 = aux_df4.columns
 print(aux_colnames4)
 
 # Оставляем нужные столбцы
-immigration_total = aux_df4[['geo',
-                             '2006 ', '2007 ', '2008 ', '2009 ',
-                             '2010 ', '2011 ', '2012 ', '2013 ',
-                             '2014 ', '2015 ',
-                             '2016 ', '2017 ']]
+immigration_total = aux_df4[['geo', '2017']]
+
+immigration_total['geo'] = immigration_total['geo'].map(ccodes_dict)
+
+immigration_total = immigration_total.sort_values('geo').reset_index(drop=True)
 
 print(immigration_total)
 
-# Создаем словарь для кодов стран
-ccodes_dict = {'AT': 'Austria', 'BE': 'Belgium', 'BG': 'Bulgaria', 'CY': 'Cyprus',
-               'CZ': 'Czechia', 'DE': 'Germany', 'DK': 'Denmark',  'EE': 'Estonia',
-               'EL': 'Greece',  'ES': 'Spain',   'FI': 'Finland',  'FR': 'France',
-               'HR': 'Croatia', 'HU': 'Hungary', 'IE': 'Ireland',  'IT': 'Italy',
-               'LT': 'Lithuania', 'LV': 'Latvia', 'MT': 'Malta', 'NL': 'Netherlands',
-               'PL': 'Poland', 'PT': 'Portugal', 'RO': 'Romania', 'SE': 'Sweden',
-               'SL': 'Slovenia', 'SK': 'Slovakia', 'UK': 'United Kingdom', 'LU': 'Luxembourg'}
+# Консолидация в один датасет
+eu_consolidate = {'Country': pops['Country Name'],
+                  'GDP': gdp['2017 [YR2017]'],
+                  'Population': pops['2017 [YR2017]'],
+                  'Immigration': immigration_total['2017'],
+                  'Emigration': emigration_total['2017']}
+eu_df = pd.DataFrame(eu_consolidate)
+print(eu_df)
 
 # Визуализация
-country_code = pops[0:27]['Country Code']
-pops_17 = pops[0:27]['1990 [YR1990]']
-pops_hist = go.Figure([go.Bar(x=country_code, y=pops_17)])
+country_name = eu_df['Country']
+pops_17 = eu_df['Population']
+pops_hist = go.Figure([go.Bar(x=country_name, y=pops_17)])
 pops_hist.show()
+
+hover_text = []
+
+eu_scatter = go.Figure(data=[go.Scatter(
+    x=eu_df['Immigration'],
+    y=eu_df['Emigration'],
+    mode='markers',
+    marker=dict(
+        color=eu_df['GDP'],
+        size=eu_df['Population'],
+        sizemode='area',
+        sizeref=2.*max(eu_df['Population'])/(40.**2),
+        sizemin=4,
+        showscale=True
+    )
+)])
+
+eu_scatter.show()
