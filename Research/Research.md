@@ -62,6 +62,9 @@ pops = aux_df2[0:28][['Country Name',
 pops = pops.sort_values(by=['Country Name']).reset_index(drop=True)
 
 ```
+![Immigration vs Emigration](http://127.0.0.1:57172/)
+
+![Immigration vs Emigration](C:\Users\Nvmind\github\thesis-informal-institutions\Research\Graphics\ImmieEmi)
 
 ### Источники:
 1. [Eurostat](https://ec.europa.eu/eurostat/data/database)
