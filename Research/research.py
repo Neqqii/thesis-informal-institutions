@@ -146,7 +146,7 @@ eu_scatter = go.Figure(data=[go.Scatter(
         color=np.log10(eu_df['GDP']),
         colorscale='Viridis',
         colorbar=dict(title='<b>GDP, log</b>'),
-        cmin=np.log10(12949237121.738998),
+        cmin=np.log10(eu_df['GDP'].min()),
         cmax=np.log10(4278004030164.74),
         size=bubble_size,
         sizemin=4,
