@@ -63,7 +63,7 @@ pops = pops.sort_values(by=['Country Name']).reset_index(drop=True)
 
 ```
 
-![Immigration vs Emigration](https://plot.ly/~Neqqi/1/)
+[Immigration vs Emigration](https://plot.ly/~Neqqi/1/)
 
 ![Immigration vs Emigration](Graphics/ImmiEmi.png)
 
