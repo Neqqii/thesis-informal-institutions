@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
 import os
 import plotly.offline as pyo
 import plotly as ply
@@ -112,6 +110,7 @@ eu_consolidate = {'Country': pops['Country Name'],
                   'Immigration': immigration_total['2017'],
                   'Emigration': emigration_total['2017']}
 eu_df = pd.DataFrame(eu_consolidate)
+eu_df.to_csv('eu_consolide_ei.csv')
 print(eu_df)
 
 # Визуализация
