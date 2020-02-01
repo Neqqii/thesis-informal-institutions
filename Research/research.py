@@ -144,7 +144,11 @@ eu_scatter = go.Figure(data=[go.Scatter(
     mode='markers',
     marker=dict(
         color=eu_df['GDP'],
+        colorscale='Viridis',
+        cmin=12949237121.738998,
+        cmax=4278004030164.74,
         size=bubble_size,
+        sizemin=4,
         sizemode='area',
         sizeref=2.*max(bubble_size)/(100**2),
         line_width=1.4,
@@ -170,4 +174,7 @@ eu_scatter.update_layout(
     plot_bgcolor='rgb(243, 243, 243)',
 )
 
+os.path.relpath(
+    'C:\\Users\\Nvmind\\github\\thesis-informal-institutions\\Research\\Graphics', start=None)
 eu_scatter.show()
+eu_scatter.write_image('..\\Graphics\\ImmiEmi.svg')
