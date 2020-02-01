@@ -201,7 +201,7 @@ eu_scatter.write_image('..\\Graphics\\ImmiEmi.png')
 
 Статичный график:
 
-![Immigration vs Emigration](Graphics/ImmiEmi.svg)
+![Immigration vs Emigration](Graphics/ImmiEmi.png)
 
 ### Источники:
 1. [Eurostat](https://ec.europa.eu/eurostat/data/database)
