@@ -4,6 +4,7 @@ import os
 import plotly.offline as pyo
 import plotly as ply
 import plotly.tools as tls
+import plotly.express as px
 from plotly.subplots import make_subplots
 import plotly.graph_objs as go
 from sklearn.preprocessing import StandardScaler
@@ -252,3 +253,29 @@ ind_kmeans.update_layout(
 
 ind_kmeans.show()
 ind_kmeans.write_image('.\\Graphics\\ind_kmeans.png')
+
+# А теперь на карте
+eu_PC2ei['KMeans=2'] = ind_k2means
+eu_PC2ei['KMeans=4'] = ind_k4means
+
+eu_map = go.Figure(
+    data=go.Choropleth(
+        locations=eu_PC2ei['Country'],
+        locationmode='country names',
+        z=eu_PC2ei['KMeans=4'],
+        hovertext=hover_text,
+        colorscale=[[0.00, 'rgb(210, 29, 127)'], [0.25, 'rgb(210, 29, 127)'],
+                    [0.25, 'rgb(33, 223, 155)'], [0.50, 'rgb(33, 223, 155)'],
+                    [0.50, 'rgb(47, 37, 158)'], [0.75, 'rgb(47, 37, 158)'],
+                    [0.75, 'rgb(150, 255, 0)'], [1.0, 'rgb(150, 255, 0)']],
+        zmin=0,
+        zmax=4)
+)
+
+eu_map.update_layout(
+    title_text='Clusters',
+    geo_scope='europe',  # limite map scope
+)
+
+eu_map.show()
+eu_map.write_image('.\\Graphics\\eu_map.png')

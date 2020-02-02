@@ -485,6 +485,10 @@ ind_kmeans.write_image('.\\Graphics\\ind_kmeans.png')
 
 ![Кластеры](Graphics/ind_kmeans.png)
 
+Для большей наглядности представим это на карте Европы:
+
+![Кластеры (Карта)](Graphics/eu_map.png)
+
 ### Источники:
 1. [Eurostat](https://ec.europa.eu/eurostat/data/database)
 2. [Datahub](https://datahub.io/)
