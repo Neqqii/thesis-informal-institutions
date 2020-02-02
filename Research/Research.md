@@ -135,7 +135,7 @@ eu_df.to_csv('eu_consolide_ei.csv')
 print(eu_df)
 
 ```
-![Tableaue](Research/Datasets/eu_consolide_ei.csv)
+[Tableaue](Research/Datasets/eu_consolide_ei.csv)
 
 Наконец-то можно визуализировать все это дело:
 ```py
