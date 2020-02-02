@@ -220,8 +220,11 @@ import plotly.offline as pyo
 import plotly as ply
 import plotly.tools as tls
 import plotly.graph_objs as go
+from plotly.subplots import make_subplots
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
+from sklearn.cluster import KMeans
+
 ```
 
 
