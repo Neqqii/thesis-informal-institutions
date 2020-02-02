@@ -268,6 +268,13 @@ eu_map = go.Figure(
                     [0.25, 'rgb(33, 223, 155)'], [0.50, 'rgb(33, 223, 155)'],
                     [0.50, 'rgb(47, 37, 158)'], [0.75, 'rgb(47, 37, 158)'],
                     [0.75, 'rgb(150, 255, 0)'], [1.0, 'rgb(150, 255, 0)']],
+        colorbar=dict(
+            title='<b>Clusters</b>',
+            tickmode='array',
+            tickvals=[0, 1, 2, 3],
+            ticktext=['Cluster 1', 'Cluster 2', 'Cluster 3', 'Cluster 4'],
+            ticks='outside'
+        ),
         zmin=0,
         zmax=4)
 )

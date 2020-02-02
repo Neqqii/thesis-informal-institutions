@@ -486,6 +486,39 @@ ind_kmeans.write_image('.\\Graphics\\ind_kmeans.png')
 ![Кластеры](Graphics/ind_kmeans.png)
 
 Для большей наглядности представим это на карте Европы:
+```py
+eu_PC2ei['KMeans=2'] = ind_k2means
+eu_PC2ei['KMeans=4'] = ind_k4means
+
+eu_map = go.Figure(
+    data=go.Choropleth(
+        locations=eu_PC2ei['Country'],
+        locationmode='country names',
+        z=eu_PC2ei['KMeans=4'],
+        hovertext=hover_text,
+        colorscale=[[0.00, 'rgb(210, 29, 127)'], [0.25, 'rgb(210, 29, 127)'],
+                    [0.25, 'rgb(33, 223, 155)'], [0.50, 'rgb(33, 223, 155)'],
+                    [0.50, 'rgb(47, 37, 158)'], [0.75, 'rgb(47, 37, 158)'],
+                    [0.75, 'rgb(150, 255, 0)'], [1.0, 'rgb(150, 255, 0)']],
+        colorbar=dict(
+            title='<b>Clusters</b>',
+            tickmode='array',
+            tickvals=[0, 1, 2, 3],
+            ticktext=['Cluster 1', 'Cluster 2', 'Cluster 3', 'Cluster 4'],
+            ticks='outside'
+        ),
+        zmin=0,
+        zmax=4)
+)
+
+eu_map.update_layout(
+    title_text='Clusters',
+    geo_scope='europe',  # limite map scope
+)
+
+eu_map.show()
+eu_map.write_image('.\\Graphics\\eu_map.png')
+```
 
 ![Кластеры (Карта)](Graphics/eu_map.png)
 
