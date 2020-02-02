@@ -118,7 +118,7 @@ opt_kmeans = go.Figure(data=[go.Scatter(
     plot_bgcolor='rgb(255, 255, 255)'
 ))
 opt_kmeans.show()
-eu_PCAei.write_image('.\\Graphics\\opt_kmeans.png')
+opt_kmeans.write_image('.\\Graphics\\opt_kmeans.png')
 
 # K-means (k=2)
 kmeans = KMeans(n_clusters=2)
@@ -251,4 +251,4 @@ ind_kmeans.update_layout(
     plot_bgcolor='rgb(255, 255, 255)')
 
 ind_kmeans.show()
-eu_PCAei.write_image('.\\Graphics\\ind_kmeans.png')
+ind_kmeans.write_image('.\\Graphics\\ind_kmeans.png')
