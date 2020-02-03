@@ -520,7 +520,7 @@ eu_map.update_layout(
 )
 
 eu_map.show()
-eu_map.write_image('.\\Graphics\\eu_map.png')
+eu_map.write_image('.\\Graphics\\eu_map.png =200x100')
 ```
 
 ![Кластеры (Карта)](Graphics/eu_map.png)

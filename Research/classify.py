@@ -235,7 +235,6 @@ ind_kmeans.update_yaxes(
 
 ind_kmeans.update_yaxes(
     patch=dict(
-        title='<b>Principal component 2</b>',
         gridcolor='#EBF0F8',
         type='linear',
         gridwidth=1.4,
@@ -281,8 +280,10 @@ eu_map = go.Figure(
 
 eu_map.update_layout(
     title_text='Clusters',
-    geo_scope='europe',  # limite map scope
+    geo=dict(
+        scope='europe',
+    )
 )
 
 eu_map.show()
-eu_map.write_image('.\\Graphics\\eu_map.png')
+eu_map.write_image('.\\Graphics\\eu_map.png', scale=4)
